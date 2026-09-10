@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "einarnot.bibleverse",
+  "name": "Daily Bible Verse",
+  "version": "1.0.0",
+  "author": "Einar Notland",
+  "license": "MIT",
+  "description": "A daily World English Bible verse on the Omarchy bar, with a details panel.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Daily Bible Verse",
+    "description": "Today's verse as a bar label with a details panel",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}

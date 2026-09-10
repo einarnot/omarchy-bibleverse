@@ -1,0 +1,2930 @@
+[
+  {
+    "book": "Genesis",
+    "chapter": 1,
+    "verse": 1,
+    "reference": "Genesis 1:1",
+    "short": "Gen 1:1",
+    "text": "In the beginning, God created the heavens and the earth."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 1,
+    "verse": 27,
+    "reference": "Genesis 1:27",
+    "short": "Gen 1:27",
+    "text": "God created man in his own image. In God’s image he created him; male and female he created them."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 1,
+    "verse": 31,
+    "reference": "Genesis 1:31",
+    "short": "Gen 1:31",
+    "text": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 2,
+    "verse": 3,
+    "reference": "Genesis 2:3",
+    "short": "Gen 2:3",
+    "text": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 2,
+    "verse": 7,
+    "reference": "Genesis 2:7",
+    "short": "Gen 2:7",
+    "text": "The LORD God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 2,
+    "verse": 18,
+    "reference": "Genesis 2:18",
+    "short": "Gen 2:18",
+    "text": "The LORD God said, “It is not good for the man to be alone. I will make him a helper comparable to him.”"
+  },
+  {
+    "book": "Genesis",
+    "chapter": 2,
+    "verse": 24,
+    "reference": "Genesis 2:24",
+    "short": "Gen 2:24",
+    "text": "Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 3,
+    "verse": 15,
+    "reference": "Genesis 3:15",
+    "short": "Gen 3:15",
+    "text": "I will put hostility between you and the woman, and between your offspring and her offspring. He will bruise your head, and you will bruise his heel.”"
+  },
+  {
+    "book": "Genesis",
+    "chapter": 6,
+    "verse": 8,
+    "reference": "Genesis 6:8",
+    "short": "Gen 6:8",
+    "text": "But Noah found favor in the LORD’s eyes."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 8,
+    "verse": 22,
+    "reference": "Genesis 8:22",
+    "short": "Gen 8:22",
+    "text": "While the earth remains, seed time and harvest, and cold and heat, and summer and winter, and day and night will not cease.”"
+  },
+  {
+    "book": "Genesis",
+    "chapter": 9,
+    "verse": 13,
+    "reference": "Genesis 9:13",
+    "short": "Gen 9:13",
+    "text": "I set my rainbow in the cloud, and it will be a sign of a covenant between me and the earth."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 12,
+    "verse": 2,
+    "reference": "Genesis 12:2",
+    "short": "Gen 12:2",
+    "text": "I will make of you a great nation. I will bless you and make your name great. You will be a blessing."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 12,
+    "verse": 3,
+    "reference": "Genesis 12:3",
+    "short": "Gen 12:3",
+    "text": "I will bless those who bless you, and I will curse him who treats you with contempt. All the families of the earth will be blessed through you.”"
+  },
+  {
+    "book": "Genesis",
+    "chapter": 15,
+    "verse": 6,
+    "reference": "Genesis 15:6",
+    "short": "Gen 15:6",
+    "text": "He believed in the LORD, who credited it to him for righteousness."
+  },
+  {
+    "book": "Genesis",
+    "chapter": 22,
+    "verse": 14,
+    "reference": "Genesis 22:14",
+    "short": "Gen 22:14",
+    "text": "Abraham called the name of that place “The LORD Will Provide”. As it is said to this day, “On the LORD’s mountain, it will be provided.”"
+  },
+  {
+    "book": "Genesis",
+    "chapter": 28,
+    "verse": 15,
+    "reference": "Genesis 28:15",
+    "short": "Gen 28:15",
+    "text": "Behold, I am with you, and will keep you, wherever you go, and will bring you again into this land. For I will not leave you until I have done that which I have spoken of to you.”"
+  },
+  {
+    "book": "Genesis",
+    "chapter": 50,
+    "verse": 20,
+    "reference": "Genesis 50:20",
+    "short": "Gen 50:20",
+    "text": "As for you, you meant evil against me, but God meant it for good, to save many people alive, as is happening today."
+  },
+  {
+    "book": "Exodus",
+    "chapter": 3,
+    "verse": 14,
+    "reference": "Exodus 3:14",
+    "short": "Exod 3:14",
+    "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’”"
+  },
+  {
+    "book": "Exodus",
+    "chapter": 14,
+    "verse": 14,
+    "reference": "Exodus 14:14",
+    "short": "Exod 14:14",
+    "text": "The LORD will fight for you, and you shall be still.”"
+  },
+  {
+    "book": "Exodus",
+    "chapter": 15,
+    "verse": 2,
+    "reference": "Exodus 15:2",
+    "short": "Exod 15:2",
+    "text": "The LORD is my strength and song. He has become my salvation. This is my God, and I will praise him; my father’s God, and I will exalt him."
+  },
+  {
+    "book": "Exodus",
+    "chapter": 15,
+    "verse": 11,
+    "reference": "Exodus 15:11",
+    "short": "Exod 15:11",
+    "text": "Who is like you, LORD, among the gods? Who is like you, glorious in holiness, fearful in praises, doing wonders?"
+  },
+  {
+    "book": "Exodus",
+    "chapter": 19,
+    "verse": 5,
+    "reference": "Exodus 19:5",
+    "short": "Exod 19:5",
+    "text": "Now therefore, if you will indeed obey my voice and keep my covenant, then you shall be my own possession from among all peoples; for all the earth is mine;"
+  },
+  {
+    "book": "Exodus",
+    "chapter": 20,
+    "verse": 3,
+    "reference": "Exodus 20:3",
+    "short": "Exod 20:3",
+    "text": "“You shall have no other gods before me."
+  },
+  {
+    "book": "Exodus",
+    "chapter": 20,
+    "verse": 12,
+    "reference": "Exodus 20:12",
+    "short": "Exod 20:12",
+    "text": "“Honor your father and your mother, that your days may be long in the land which the LORD your God gives you."
+  },
+  {
+    "book": "Exodus",
+    "chapter": 33,
+    "verse": 14,
+    "reference": "Exodus 33:14",
+    "short": "Exod 33:14",
+    "text": "He said, “My presence will go with you, and I will give you rest.”"
+  },
+  {
+    "book": "Exodus",
+    "chapter": 34,
+    "verse": 6,
+    "reference": "Exodus 34:6",
+    "short": "Exod 34:6",
+    "text": "The LORD passed by before him, and proclaimed, “The LORD! The LORD, a merciful and gracious God, slow to anger, and abundant in loving kindness and truth,"
+  },
+  {
+    "book": "Leviticus",
+    "chapter": 19,
+    "verse": 2,
+    "reference": "Leviticus 19:2",
+    "short": "Lev 19:2",
+    "text": "“Speak to all the congregation of the children of Israel, and tell them, ‘You shall be holy; for I, the LORD your God, am holy."
+  },
+  {
+    "book": "Leviticus",
+    "chapter": 19,
+    "verse": 18,
+    "reference": "Leviticus 19:18",
+    "short": "Lev 19:18",
+    "text": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am the LORD."
+  },
+  {
+    "book": "Numbers",
+    "chapter": 6,
+    "verse": 24,
+    "reference": "Numbers 6:24",
+    "short": "Num 6:24",
+    "text": "‘The LORD bless you, and keep you."
+  },
+  {
+    "book": "Numbers",
+    "chapter": 6,
+    "verse": 25,
+    "reference": "Numbers 6:25",
+    "short": "Num 6:25",
+    "text": "The LORD make his face to shine on you, and be gracious to you."
+  },
+  {
+    "book": "Numbers",
+    "chapter": 6,
+    "verse": 26,
+    "reference": "Numbers 6:26",
+    "short": "Num 6:26",
+    "text": "The LORD lift up his face toward you, and give you peace.’"
+  },
+  {
+    "book": "Numbers",
+    "chapter": 23,
+    "verse": 19,
+    "reference": "Numbers 23:19",
+    "short": "Num 23:19",
+    "text": "God is not a man, that he should lie, nor a son of man, that he should repent. Has he said, and he won’t do it? Or has he spoken, and he won’t make it good?"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 4,
+    "verse": 29,
+    "reference": "Deuteronomy 4:29",
+    "short": "Deut 4:29",
+    "text": "But from there you shall seek the LORD your God, and you will find him when you search after him with all your heart and with all your soul."
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 6,
+    "verse": 4,
+    "reference": "Deuteronomy 6:4",
+    "short": "Deut 6:4",
+    "text": "Hear, Israel: The LORD is our God. The LORD is one."
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 6,
+    "verse": 5,
+    "reference": "Deuteronomy 6:5",
+    "short": "Deut 6:5",
+    "text": "You shall love the LORD your God with all your heart, with all your soul, and with all your might."
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 6,
+    "verse": 6,
+    "reference": "Deuteronomy 6:6",
+    "short": "Deut 6:6",
+    "text": "These words, which I command you today, shall be on your heart;"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 7,
+    "verse": 9,
+    "reference": "Deuteronomy 7:9",
+    "short": "Deut 7:9",
+    "text": "Know therefore that the LORD your God himself is God, the faithful God, who keeps covenant and loving kindness to a thousand generations with those who love him and keep his commandments,"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 8,
+    "verse": 3,
+    "reference": "Deuteronomy 8:3",
+    "short": "Deut 8:3",
+    "text": "He humbled you, allowed you to be hungry, and fed you with manna, which you didn’t know, neither did your fathers know, that he might teach you that man does not live by bread only, but man lives by every word that proceeds out of the LORD’s mouth."
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 10,
+    "verse": 12,
+    "reference": "Deuteronomy 10:12",
+    "short": "Deut 10:12",
+    "text": "Now, Israel, what does the LORD your God require of you, but to fear the LORD your God, to walk in all his ways, to love him, and to serve the LORD your God with all your heart and with all your soul,"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 30,
+    "verse": 19,
+    "reference": "Deuteronomy 30:19",
+    "short": "Deut 30:19",
+    "text": "I call heaven and earth to witness against you today that I have set before you life and death, the blessing and the curse. Therefore choose life, that you may live, you and your descendants,"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 31,
+    "verse": 6,
+    "reference": "Deuteronomy 31:6",
+    "short": "Deut 31:6",
+    "text": "Be strong and courageous. Don’t be afraid or scared of them, for the LORD your God himself is who goes with you. He will not fail you nor forsake you.”"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 31,
+    "verse": 8,
+    "reference": "Deuteronomy 31:8",
+    "short": "Deut 31:8",
+    "text": "The LORD himself is who goes before you. He will be with you. He will not fail you nor forsake you. Don’t be afraid. Don’t be discouraged.”"
+  },
+  {
+    "book": "Deuteronomy",
+    "chapter": 33,
+    "verse": 27,
+    "reference": "Deuteronomy 33:27",
+    "short": "Deut 33:27",
+    "text": "The eternal God is your dwelling place. Underneath are the everlasting arms. He thrust out the enemy from before you, and said, ‘Destroy!’"
+  },
+  {
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 8,
+    "reference": "Joshua 1:8",
+    "short": "Josh 1:8",
+    "text": "This book of the law shall not depart from your mouth, but you shall meditate on it day and night, that you may observe to do according to all that is written in it; for then you shall make your way prosperous, and then you shall have good success."
+  },
+  {
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 9,
+    "reference": "Joshua 1:9",
+    "short": "Josh 1:9",
+    "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for the LORD your God is with you wherever you go.”"
+  },
+  {
+    "book": "Joshua",
+    "chapter": 24,
+    "verse": 15,
+    "reference": "Joshua 24:15",
+    "short": "Josh 24:15",
+    "text": "If it seems evil to you to serve the LORD, choose today whom you will serve; whether the gods which your fathers served that were beyond the River, or the gods of the Amorites, in whose land you dwell; but as for me and my house, we will serve the LORD.”"
+  },
+  {
+    "book": "Judges",
+    "chapter": 6,
+    "verse": 12,
+    "reference": "Judges 6:12",
+    "short": "Judg 6:12",
+    "text": "The LORD’s angel appeared to him, and said to him, “The LORD is with you, you mighty man of valor!”"
+  },
+  {
+    "book": "Ruth",
+    "chapter": 1,
+    "verse": 16,
+    "reference": "Ruth 1:16",
+    "short": "Ruth 1:16",
+    "text": "Ruth said, “Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God my God."
+  },
+  {
+    "book": "1 Samuel",
+    "chapter": 12,
+    "verse": 24,
+    "reference": "1 Samuel 12:24",
+    "short": "1 Sam 12:24",
+    "text": "Only fear the LORD, and serve him in truth with all your heart; for consider what great things he has done for you."
+  },
+  {
+    "book": "1 Samuel",
+    "chapter": 16,
+    "verse": 7,
+    "reference": "1 Samuel 16:7",
+    "short": "1 Sam 16:7",
+    "text": "But the LORD said to Samuel, “Don’t look on his face, or on the height of his stature, because I have rejected him; for I don’t see as man sees. For man looks at the outward appearance, but the LORD looks at the heart.”"
+  },
+  {
+    "book": "2 Samuel",
+    "chapter": 7,
+    "verse": 22,
+    "reference": "2 Samuel 7:22",
+    "short": "2 Sam 7:22",
+    "text": "Therefore you are great, LORD God. For there is no one like you, neither is there any God besides you, according to all that we have heard with our ears."
+  },
+  {
+    "book": "2 Samuel",
+    "chapter": 22,
+    "verse": 31,
+    "reference": "2 Samuel 22:31",
+    "short": "2 Sam 22:31",
+    "text": "As for God, his way is perfect. The LORD’s word is tested. He is a shield to all those who take refuge in him."
+  },
+  {
+    "book": "2 Samuel",
+    "chapter": 22,
+    "verse": 33,
+    "reference": "2 Samuel 22:33",
+    "short": "2 Sam 22:33",
+    "text": "God is my strong fortress. He makes my way perfect."
+  },
+  {
+    "book": "1 Kings",
+    "chapter": 8,
+    "verse": 56,
+    "reference": "1 Kings 8:56",
+    "short": "1 Kgs 8:56",
+    "text": "“Blessed be the LORD, who has given rest to his people Israel, according to all that he promised. There has not failed one word of all his good promise, which he promised by Moses his servant."
+  },
+  {
+    "book": "1 Kings",
+    "chapter": 8,
+    "verse": 61,
+    "reference": "1 Kings 8:61",
+    "short": "1 Kgs 8:61",
+    "text": "“Let your heart therefore be perfect with the LORD our God, to walk in his statutes, and to keep his commandments, as it is today.”"
+  },
+  {
+    "book": "2 Kings",
+    "chapter": 6,
+    "verse": 16,
+    "reference": "2 Kings 6:16",
+    "short": "2 Kgs 6:16",
+    "text": "He answered, “Don’t be afraid, for those who are with us are more than those who are with them.”"
+  },
+  {
+    "book": "2 Kings",
+    "chapter": 20,
+    "verse": 5,
+    "reference": "2 Kings 20:5",
+    "short": "2 Kgs 20:5",
+    "text": "“Turn back, and tell Hezekiah the prince of my people, ‘The LORD, the God of David your father, says, “I have heard your prayer. I have seen your tears. Behold, I will heal you. On the third day, you will go up to the LORD’s house."
+  },
+  {
+    "book": "1 Chronicles",
+    "chapter": 16,
+    "verse": 11,
+    "reference": "1 Chronicles 16:11",
+    "short": "1 Chr 16:11",
+    "text": "Seek the LORD and his strength. Seek his face forever more."
+  },
+  {
+    "book": "1 Chronicles",
+    "chapter": 16,
+    "verse": 34,
+    "reference": "1 Chronicles 16:34",
+    "short": "1 Chr 16:34",
+    "text": "Oh give thanks to the LORD, for he is good, for his loving kindness endures forever."
+  },
+  {
+    "book": "1 Chronicles",
+    "chapter": 29,
+    "verse": 11,
+    "reference": "1 Chronicles 29:11",
+    "short": "1 Chr 29:11",
+    "text": "Yours, LORD, is the greatness, the power, the glory, the victory, and the majesty! For all that is in the heavens and in the earth is yours. Yours is the kingdom, LORD, and you are exalted as head above all."
+  },
+  {
+    "book": "1 Chronicles",
+    "chapter": 29,
+    "verse": 14,
+    "reference": "1 Chronicles 29:14",
+    "short": "1 Chr 29:14",
+    "text": "But who am I, and what is my people, that we should be able to offer so willingly as this? For all things come from you, and we have given you of your own."
+  },
+  {
+    "book": "2 Chronicles",
+    "chapter": 7,
+    "verse": 14,
+    "reference": "2 Chronicles 7:14",
+    "short": "2 Chr 7:14",
+    "text": "if my people who are called by my name will humble themselves, pray, seek my face, and turn from their wicked ways, then I will hear from heaven, will forgive their sin, and will heal their land."
+  },
+  {
+    "book": "2 Chronicles",
+    "chapter": 15,
+    "verse": 7,
+    "reference": "2 Chronicles 15:7",
+    "short": "2 Chr 15:7",
+    "text": "But you be strong! Don’t let your hands be slack, for your work will be rewarded.”"
+  },
+  {
+    "book": "2 Chronicles",
+    "chapter": 16,
+    "verse": 9,
+    "reference": "2 Chronicles 16:9",
+    "short": "2 Chr 16:9",
+    "text": "For the LORD’s eyes run back and forth throughout the whole earth, to show himself strong in the behalf of them whose heart is perfect toward him. You have done foolishly in this; for from now on you will have wars.”"
+  },
+  {
+    "book": "2 Chronicles",
+    "chapter": 20,
+    "verse": 15,
+    "reference": "2 Chronicles 20:15",
+    "short": "2 Chr 20:15",
+    "text": "and he said, “Listen, all Judah, and you inhabitants of Jerusalem, and you, King Jehoshaphat. The LORD says to you, ‘Don’t be afraid, and don’t be dismayed because of this great multitude; for the battle is not yours, but God’s."
+  },
+  {
+    "book": "Ezra",
+    "chapter": 3,
+    "verse": 11,
+    "reference": "Ezra 3:11",
+    "short": "Ezra 3:11",
+    "text": "They sang to one another in praising and giving thanks to the LORD, “For he is good, for his loving kindness endures forever toward Israel.” All the people shouted with a great shout, when they praised the LORD, because the foundation of the LORD’s house had been laid."
+  },
+  {
+    "book": "Ezra",
+    "chapter": 7,
+    "verse": 10,
+    "reference": "Ezra 7:10",
+    "short": "Ezra 7:10",
+    "text": "For Ezra had set his heart to seek the LORD’s law, and to do it, and to teach statutes and ordinances in Israel."
+  },
+  {
+    "book": "Nehemiah",
+    "chapter": 8,
+    "verse": 10,
+    "reference": "Nehemiah 8:10",
+    "short": "Neh 8:10",
+    "text": "Then he said to them, “Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord. Don’t be grieved, for the joy of the LORD is your strength.”"
+  },
+  {
+    "book": "Esther",
+    "chapter": 4,
+    "verse": 14,
+    "reference": "Esther 4:14",
+    "short": "Esth 4:14",
+    "text": "For if you remain silent now, then relief and deliverance will come to the Jews from another place, but you and your father’s house will perish. Who knows if you haven’t come to the kingdom for such a time as this?”"
+  },
+  {
+    "book": "Job",
+    "chapter": 1,
+    "verse": 21,
+    "reference": "Job 1:21",
+    "short": "Job 1:21",
+    "text": "He said, “Naked I came out of my mother’s womb, and naked will I return there. The LORD gave, and the LORD has taken away. Blessed be the LORD’s name.”"
+  },
+  {
+    "book": "Job",
+    "chapter": 5,
+    "verse": 17,
+    "reference": "Job 5:17",
+    "short": "Job 5:17",
+    "text": "“Behold, happy is the man whom God corrects. Therefore do not despise the chastening of the Almighty."
+  },
+  {
+    "book": "Job",
+    "chapter": 8,
+    "verse": 21,
+    "reference": "Job 8:21",
+    "short": "Job 8:21",
+    "text": "He will still fill your mouth with laughter, your lips with shouting."
+  },
+  {
+    "book": "Job",
+    "chapter": 11,
+    "verse": 18,
+    "reference": "Job 11:18",
+    "short": "Job 11:18",
+    "text": "You will be secure, because there is hope. Yes, you will search, and will take your rest in safety."
+  },
+  {
+    "book": "Job",
+    "chapter": 12,
+    "verse": 13,
+    "reference": "Job 12:13",
+    "short": "Job 12:13",
+    "text": "“With God is wisdom and might. He has counsel and understanding."
+  },
+  {
+    "book": "Job",
+    "chapter": 13,
+    "verse": 15,
+    "reference": "Job 13:15",
+    "short": "Job 13:15",
+    "text": "Behold, he will kill me. I have no hope. Nevertheless, I will maintain my ways before him."
+  },
+  {
+    "book": "Job",
+    "chapter": 19,
+    "verse": 25,
+    "reference": "Job 19:25",
+    "short": "Job 19:25",
+    "text": "But as for me, I know that my Redeemer lives. In the end, he will stand upon the earth."
+  },
+  {
+    "book": "Job",
+    "chapter": 23,
+    "verse": 10,
+    "reference": "Job 23:10",
+    "short": "Job 23:10",
+    "text": "But he knows the way that I take. When he has tried me, I will come out like gold."
+  },
+  {
+    "book": "Job",
+    "chapter": 37,
+    "verse": 5,
+    "reference": "Job 37:5",
+    "short": "Job 37:5",
+    "text": "God thunders marvelously with his voice. He does great things, which we can’t comprehend."
+  },
+  {
+    "book": "Job",
+    "chapter": 42,
+    "verse": 2,
+    "reference": "Job 42:2",
+    "short": "Job 42:2",
+    "text": "“I know that you can do all things, and that no purpose of yours can be restrained."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 1,
+    "verse": 1,
+    "reference": "Psalms 1:1",
+    "short": "Ps 1:1",
+    "text": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 1,
+    "verse": 2,
+    "reference": "Psalms 1:2",
+    "short": "Ps 1:2",
+    "text": "but his delight is in the LORD’s law. On his law he meditates day and night."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 4,
+    "verse": 8,
+    "reference": "Psalms 4:8",
+    "short": "Ps 4:8",
+    "text": "In peace I will both lay myself down and sleep, for you alone, LORD, make me live in safety."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 5,
+    "verse": 3,
+    "reference": "Psalms 5:3",
+    "short": "Ps 5:3",
+    "text": "LORD, in the morning you will hear my voice. In the morning I will lay my requests before you, and will watch expectantly."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 8,
+    "verse": 1,
+    "reference": "Psalms 8:1",
+    "short": "Ps 8:1",
+    "text": "For the Chief Musician; on an instrument of Gath. A Psalm by David. LORD, our Lord, how majestic is your name in all the earth! You have set your glory above the heavens!"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 9,
+    "verse": 1,
+    "reference": "Psalms 9:1",
+    "short": "Ps 9:1",
+    "text": "For the Chief Musician. Set to “The Death of the Son.” A Psalm by David. I will give thanks to the LORD with my whole heart. I will tell of all your marvelous works."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 16,
+    "verse": 8,
+    "reference": "Psalms 16:8",
+    "short": "Ps 16:8",
+    "text": "I have set the LORD always before me. Because he is at my right hand, I shall not be moved."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 16,
+    "verse": 11,
+    "reference": "Psalms 16:11",
+    "short": "Ps 16:11",
+    "text": "You will show me the path of life. In your presence is fullness of joy. In your right hand there are pleasures forever more."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 18,
+    "verse": 2,
+    "reference": "Psalms 18:2",
+    "short": "Ps 18:2",
+    "text": "The LORD is my rock, my fortress, and my deliverer; my God, my rock, in whom I take refuge; my shield, and the horn of my salvation, my high tower."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 19,
+    "verse": 1,
+    "reference": "Psalms 19:1",
+    "short": "Ps 19:1",
+    "text": "For the Chief Musician. A Psalm by David. The heavens declare the glory of God. The expanse shows his handiwork."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 19,
+    "verse": 14,
+    "reference": "Psalms 19:14",
+    "short": "Ps 19:14",
+    "text": "Let the words of my mouth and the meditation of my heart be acceptable in your sight, LORD, my rock, and my redeemer."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 23,
+    "verse": 1,
+    "reference": "Psalms 23:1",
+    "short": "Ps 23:1",
+    "text": "A Psalm by David. The LORD is my shepherd; I shall lack nothing."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 23,
+    "verse": 4,
+    "reference": "Psalms 23:4",
+    "short": "Ps 23:4",
+    "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 23,
+    "verse": 6,
+    "reference": "Psalms 23:6",
+    "short": "Ps 23:6",
+    "text": "Surely goodness and loving kindness shall follow me all the days of my life, and I will dwell in the LORD’s house forever."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 24,
+    "verse": 1,
+    "reference": "Psalms 24:1",
+    "short": "Ps 24:1",
+    "text": "A Psalm by David. The earth is the LORD’s, with its fullness; the world, and those who dwell in it."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 25,
+    "verse": 4,
+    "reference": "Psalms 25:4",
+    "short": "Ps 25:4",
+    "text": "Show me your ways, LORD. Teach me your paths."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 27,
+    "verse": 1,
+    "reference": "Psalms 27:1",
+    "short": "Ps 27:1",
+    "text": "By David. The LORD is my light and my salvation. Whom shall I fear? The LORD is the strength of my life. Of whom shall I be afraid?"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 27,
+    "verse": 4,
+    "reference": "Psalms 27:4",
+    "short": "Ps 27:4",
+    "text": "One thing I have asked of the LORD, that I will seek after: that I may dwell in the LORD’s house all the days of my life, to see the LORD’s beauty, and to inquire in his temple."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 27,
+    "verse": 14,
+    "reference": "Psalms 27:14",
+    "short": "Ps 27:14",
+    "text": "Wait for the LORD. Be strong, and let your heart take courage. Yes, wait for the LORD."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 29,
+    "verse": 2,
+    "reference": "Psalms 29:2",
+    "short": "Ps 29:2",
+    "text": "Ascribe to the LORD the glory due to his name. Worship the LORD in holy array."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 30,
+    "verse": 5,
+    "reference": "Psalms 30:5",
+    "short": "Ps 30:5",
+    "text": "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 31,
+    "verse": 24,
+    "reference": "Psalms 31:24",
+    "short": "Ps 31:24",
+    "text": "Be strong, and let your heart take courage, all you who hope in the LORD."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 32,
+    "verse": 8,
+    "reference": "Psalms 32:8",
+    "short": "Ps 32:8",
+    "text": "I will instruct you and teach you in the way which you shall go. I will counsel you with my eye on you."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 33,
+    "verse": 4,
+    "reference": "Psalms 33:4",
+    "short": "Ps 33:4",
+    "text": "For the LORD’s word is right. All his work is done in faithfulness."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 34,
+    "verse": 8,
+    "reference": "Psalms 34:8",
+    "short": "Ps 34:8",
+    "text": "Oh taste and see that the LORD is good. Blessed is the man who takes refuge in him."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 34,
+    "verse": 18,
+    "reference": "Psalms 34:18",
+    "short": "Ps 34:18",
+    "text": "The LORD is near to those who have a broken heart, and saves those who have a crushed spirit."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 37,
+    "verse": 4,
+    "reference": "Psalms 37:4",
+    "short": "Ps 37:4",
+    "text": "Also delight yourself in the LORD, and he will give you the desires of your heart."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 37,
+    "verse": 5,
+    "reference": "Psalms 37:5",
+    "short": "Ps 37:5",
+    "text": "Commit your way to the LORD. Trust also in him, and he will do this:"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 37,
+    "verse": 7,
+    "reference": "Psalms 37:7",
+    "short": "Ps 37:7",
+    "text": "Rest in the LORD, and wait patiently for him. Don’t fret because of him who prospers in his way, because of the man who makes wicked plots happen."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 40,
+    "verse": 1,
+    "reference": "Psalms 40:1",
+    "short": "Ps 40:1",
+    "text": "For the Chief Musician. A Psalm by David. I waited patiently for the LORD. He turned to me, and heard my cry."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 40,
+    "verse": 8,
+    "reference": "Psalms 40:8",
+    "short": "Ps 40:8",
+    "text": "I delight to do your will, my God. Yes, your law is within my heart.”"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 42,
+    "verse": 1,
+    "reference": "Psalms 42:1",
+    "short": "Ps 42:1",
+    "text": "For the Chief Musician. A contemplation by the sons of Korah. As the deer pants for the water brooks, so my soul pants after you, God."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 42,
+    "verse": 11,
+    "reference": "Psalms 42:11",
+    "short": "Ps 42:11",
+    "text": "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him, the saving help of my countenance, and my God."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 46,
+    "verse": 1,
+    "reference": "Psalms 46:1",
+    "short": "Ps 46:1",
+    "text": "For the Chief Musician. By the sons of Korah. According to Alamoth. God is our refuge and strength, a very present help in trouble."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 46,
+    "verse": 10,
+    "reference": "Psalms 46:10",
+    "short": "Ps 46:10",
+    "text": "“Be still, and know that I am God. I will be exalted among the nations. I will be exalted in the earth.”"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 51,
+    "verse": 10,
+    "reference": "Psalms 51:10",
+    "short": "Ps 51:10",
+    "text": "Create in me a clean heart, O God. Renew a right spirit within me."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 51,
+    "verse": 12,
+    "reference": "Psalms 51:12",
+    "short": "Ps 51:12",
+    "text": "Restore to me the joy of your salvation. Uphold me with a willing spirit."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 55,
+    "verse": 22,
+    "reference": "Psalms 55:22",
+    "short": "Ps 55:22",
+    "text": "Cast your burden on the LORD and he will sustain you. He will never allow the righteous to be moved."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 56,
+    "verse": 3,
+    "reference": "Psalms 56:3",
+    "short": "Ps 56:3",
+    "text": "When I am afraid, I will put my trust in you."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 61,
+    "verse": 2,
+    "reference": "Psalms 61:2",
+    "short": "Ps 61:2",
+    "text": "From the end of the earth, I will call to you when my heart is overwhelmed. Lead me to the rock that is higher than I."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 62,
+    "verse": 1,
+    "reference": "Psalms 62:1",
+    "short": "Ps 62:1",
+    "text": "For the Chief Musician. To Jeduthun. A Psalm by David. My soul rests in God alone. My salvation is from him."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 62,
+    "verse": 8,
+    "reference": "Psalms 62:8",
+    "short": "Ps 62:8",
+    "text": "Trust in him at all times, you people. Pour out your heart before him. God is a refuge for us. Selah."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 63,
+    "verse": 1,
+    "reference": "Psalms 63:1",
+    "short": "Ps 63:1",
+    "text": "A Psalm by David, when he was in the desert of Judah. God, you are my God. I will earnestly seek you. My soul thirsts for you. My flesh longs for you, in a dry and weary land, where there is no water."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 66,
+    "verse": 16,
+    "reference": "Psalms 66:16",
+    "short": "Ps 66:16",
+    "text": "Come and hear, all you who fear God. I will declare what he has done for my soul."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 67,
+    "verse": 1,
+    "reference": "Psalms 67:1",
+    "short": "Ps 67:1",
+    "text": "For the Chief Musician. With stringed instruments. A Psalm. A song. May God be merciful to us, bless us, and cause his face to shine on us. Selah."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 68,
+    "verse": 19,
+    "reference": "Psalms 68:19",
+    "short": "Ps 68:19",
+    "text": "Blessed be the Lord, who daily bears our burdens, even the God who is our salvation. Selah."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 71,
+    "verse": 5,
+    "reference": "Psalms 71:5",
+    "short": "Ps 71:5",
+    "text": "For you are my hope, Lord GOD, my confidence from my youth."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 73,
+    "verse": 26,
+    "reference": "Psalms 73:26",
+    "short": "Ps 73:26",
+    "text": "My flesh and my heart fails, but God is the strength of my heart and my portion forever."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 84,
+    "verse": 11,
+    "reference": "Psalms 84:11",
+    "short": "Ps 84:11",
+    "text": "For the LORD God is a sun and a shield. The LORD will give grace and glory. He withholds no good thing from those who walk blamelessly."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 86,
+    "verse": 5,
+    "reference": "Psalms 86:5",
+    "short": "Ps 86:5",
+    "text": "For you, Lord, are good, and ready to forgive, abundant in loving kindness to all those who call on you."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 89,
+    "verse": 1,
+    "reference": "Psalms 89:1",
+    "short": "Ps 89:1",
+    "text": "A contemplation by Ethan, the Ezrahite. I will sing of the loving kindness of the LORD forever. With my mouth, I will make known your faithfulness to all generations."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 90,
+    "verse": 12,
+    "reference": "Psalms 90:12",
+    "short": "Ps 90:12",
+    "text": "So teach us to count our days, that we may gain a heart of wisdom."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 91,
+    "verse": 1,
+    "reference": "Psalms 91:1",
+    "short": "Ps 91:1",
+    "text": "He who dwells in the secret place of the Most High will rest in the shadow of the Almighty."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 91,
+    "verse": 4,
+    "reference": "Psalms 91:4",
+    "short": "Ps 91:4",
+    "text": "He will cover you with his feathers. Under his wings you will take refuge. His faithfulness is your shield and rampart."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 91,
+    "verse": 11,
+    "reference": "Psalms 91:11",
+    "short": "Ps 91:11",
+    "text": "For he will put his angels in charge of you, to guard you in all your ways."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 92,
+    "verse": 1,
+    "reference": "Psalms 92:1",
+    "short": "Ps 92:1",
+    "text": "A Psalm. A song for the Sabbath day. It is a good thing to give thanks to the LORD, to sing praises to your name, Most High,"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 95,
+    "verse": 1,
+    "reference": "Psalms 95:1",
+    "short": "Ps 95:1",
+    "text": "Oh come, let’s sing to the LORD. Let’s shout aloud to the rock of our salvation!"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 96,
+    "verse": 1,
+    "reference": "Psalms 96:1",
+    "short": "Ps 96:1",
+    "text": "Sing to the LORD a new song! Sing to the LORD, all the earth."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 100,
+    "verse": 1,
+    "reference": "Psalms 100:1",
+    "short": "Ps 100:1",
+    "text": "A Psalm of thanksgiving. Shout for joy to the LORD, all you lands!"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 100,
+    "verse": 4,
+    "reference": "Psalms 100:4",
+    "short": "Ps 100:4",
+    "text": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 103,
+    "verse": 1,
+    "reference": "Psalms 103:1",
+    "short": "Ps 103:1",
+    "text": "By David. Praise the LORD, my soul! All that is within me, praise his holy name!"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 103,
+    "verse": 12,
+    "reference": "Psalms 103:12",
+    "short": "Ps 103:12",
+    "text": "As far as the east is from the west, so far has he removed our transgressions from us."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 107,
+    "verse": 1,
+    "reference": "Psalms 107:1",
+    "short": "Ps 107:1",
+    "text": "Give thanks to the LORD, for he is good, for his loving kindness endures forever."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 118,
+    "verse": 6,
+    "reference": "Psalms 118:6",
+    "short": "Ps 118:6",
+    "text": "The LORD is on my side. I will not be afraid. What can man do to me?"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 118,
+    "verse": 24,
+    "reference": "Psalms 118:24",
+    "short": "Ps 118:24",
+    "text": "This is the day that the LORD has made. We will rejoice and be glad in it!"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 119,
+    "verse": 11,
+    "reference": "Psalms 119:11",
+    "short": "Ps 119:11",
+    "text": "I have hidden your word in my heart, that I might not sin against you."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 119,
+    "verse": 105,
+    "reference": "Psalms 119:105",
+    "short": "Ps 119:105",
+    "text": "Your word is a lamp to my feet, and a light for my path."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 121,
+    "verse": 1,
+    "reference": "Psalms 121:1",
+    "short": "Ps 121:1",
+    "text": "A Song of Ascents. I will lift up my eyes to the hills. Where does my help come from?"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 121,
+    "verse": 2,
+    "reference": "Psalms 121:2",
+    "short": "Ps 121:2",
+    "text": "My help comes from the LORD, who made heaven and earth."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 121,
+    "verse": 7,
+    "reference": "Psalms 121:7",
+    "short": "Ps 121:7",
+    "text": "The LORD will keep you from all evil. He will keep your soul."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 126,
+    "verse": 5,
+    "reference": "Psalms 126:5",
+    "short": "Ps 126:5",
+    "text": "Those who sow in tears will reap in joy."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 127,
+    "verse": 1,
+    "reference": "Psalms 127:1",
+    "short": "Ps 127:1",
+    "text": "A Song of Ascents. By Solomon. Unless the LORD builds the house, they who build it labor in vain. Unless the LORD watches over the city, the watchman guards it in vain."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 130,
+    "verse": 5,
+    "reference": "Psalms 130:5",
+    "short": "Ps 130:5",
+    "text": "I wait for the LORD. My soul waits. I hope in his word."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 133,
+    "verse": 1,
+    "reference": "Psalms 133:1",
+    "short": "Ps 133:1",
+    "text": "A Song of Ascents. By David. See how good and how pleasant it is for brothers to live together in unity!"
+  },
+  {
+    "book": "Psalms",
+    "chapter": 136,
+    "verse": 1,
+    "reference": "Psalms 136:1",
+    "short": "Ps 136:1",
+    "text": "Give thanks to the LORD, for he is good, for his loving kindness endures forever."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 138,
+    "verse": 8,
+    "reference": "Psalms 138:8",
+    "short": "Ps 138:8",
+    "text": "The LORD will fulfill that which concerns me. Your loving kindness, LORD, endures forever. Don’t forsake the works of your own hands."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 139,
+    "verse": 14,
+    "reference": "Psalms 139:14",
+    "short": "Ps 139:14",
+    "text": "I will give thanks to you, for I am fearfully and wonderfully made. Your works are wonderful. My soul knows that very well."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 139,
+    "verse": 23,
+    "reference": "Psalms 139:23",
+    "short": "Ps 139:23",
+    "text": "Search me, God, and know my heart. Try me, and know my thoughts."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 143,
+    "verse": 8,
+    "reference": "Psalms 143:8",
+    "short": "Ps 143:8",
+    "text": "Cause me to hear your loving kindness in the morning, for I trust in you. Cause me to know the way in which I should walk, for I lift up my soul to you."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 145,
+    "verse": 8,
+    "reference": "Psalms 145:8",
+    "short": "Ps 145:8",
+    "text": "The LORD is gracious, merciful, slow to anger, and of great loving kindness."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 145,
+    "verse": 18,
+    "reference": "Psalms 145:18",
+    "short": "Ps 145:18",
+    "text": "The LORD is near to all those who call on him, to all who call on him in truth."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 147,
+    "verse": 3,
+    "reference": "Psalms 147:3",
+    "short": "Ps 147:3",
+    "text": "He heals the broken in heart, and binds up their wounds."
+  },
+  {
+    "book": "Psalms",
+    "chapter": 150,
+    "verse": 6,
+    "reference": "Psalms 150:6",
+    "short": "Ps 150:6",
+    "text": "Let everything that has breath praise the LORD! Praise the LORD!"
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 1,
+    "verse": 7,
+    "reference": "Proverbs 1:7",
+    "short": "Prov 1:7",
+    "text": "The fear of the LORD is the beginning of knowledge, but the foolish despise wisdom and instruction."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 2,
+    "verse": 6,
+    "reference": "Proverbs 2:6",
+    "short": "Prov 2:6",
+    "text": "For the LORD gives wisdom. Out of his mouth comes knowledge and understanding."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5,
+    "reference": "Proverbs 3:5",
+    "short": "Prov 3:5",
+    "text": "Trust in the LORD with all your heart, and don’t lean on your own understanding."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 6,
+    "reference": "Proverbs 3:6",
+    "short": "Prov 3:6",
+    "text": "In all your ways acknowledge him, and he will make your paths straight."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 9,
+    "reference": "Proverbs 3:9",
+    "short": "Prov 3:9",
+    "text": "Honor the LORD with your substance, with the first fruits of all your increase;"
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 4,
+    "verse": 23,
+    "reference": "Proverbs 4:23",
+    "short": "Prov 4:23",
+    "text": "Keep your heart with all diligence, for out of it is the wellspring of life."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 8,
+    "verse": 17,
+    "reference": "Proverbs 8:17",
+    "short": "Prov 8:17",
+    "text": "I love those who love me. Those who seek me diligently will find me."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 9,
+    "verse": 10,
+    "reference": "Proverbs 9:10",
+    "short": "Prov 9:10",
+    "text": "The fear of the LORD is the beginning of wisdom. The knowledge of the Holy One is understanding."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 10,
+    "verse": 12,
+    "reference": "Proverbs 10:12",
+    "short": "Prov 10:12",
+    "text": "Hatred stirs up strife, but love covers all wrongs."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 11,
+    "verse": 25,
+    "reference": "Proverbs 11:25",
+    "short": "Prov 11:25",
+    "text": "The liberal soul shall be made fat. He who waters shall be watered also himself."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 12,
+    "verse": 25,
+    "reference": "Proverbs 12:25",
+    "short": "Prov 12:25",
+    "text": "Anxiety in a man’s heart weighs it down, but a kind word makes it glad."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 13,
+    "verse": 20,
+    "reference": "Proverbs 13:20",
+    "short": "Prov 13:20",
+    "text": "One who walks with wise men grows wise, but a companion of fools suffers harm."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 14,
+    "verse": 12,
+    "reference": "Proverbs 14:12",
+    "short": "Prov 14:12",
+    "text": "There is a way which seems right to a man, but in the end it leads to death."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 15,
+    "verse": 1,
+    "reference": "Proverbs 15:1",
+    "short": "Prov 15:1",
+    "text": "A gentle answer turns away wrath, but a harsh word stirs up anger."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 3,
+    "reference": "Proverbs 16:3",
+    "short": "Prov 16:3",
+    "text": "Commit your deeds to the LORD, and your plans shall succeed."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 9,
+    "reference": "Proverbs 16:9",
+    "short": "Prov 16:9",
+    "text": "A man’s heart plans his course, but the LORD directs his steps."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": 18,
+    "reference": "Proverbs 16:18",
+    "short": "Prov 16:18",
+    "text": "Pride goes before destruction, and an arrogant spirit before a fall."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 17,
+    "verse": 17,
+    "reference": "Proverbs 17:17",
+    "short": "Prov 17:17",
+    "text": "A friend loves at all times; and a brother is born for adversity."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 17,
+    "verse": 22,
+    "reference": "Proverbs 17:22",
+    "short": "Prov 17:22",
+    "text": "A cheerful heart makes good medicine, but a crushed spirit dries up the bones."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 18,
+    "verse": 10,
+    "reference": "Proverbs 18:10",
+    "short": "Prov 18:10",
+    "text": "The LORD’s name is a strong tower: the righteous run to him, and are safe."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 18,
+    "verse": 21,
+    "reference": "Proverbs 18:21",
+    "short": "Prov 18:21",
+    "text": "Death and life are in the power of the tongue; those who love it will eat its fruit."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 19,
+    "verse": 21,
+    "reference": "Proverbs 19:21",
+    "short": "Prov 19:21",
+    "text": "There are many plans in a man’s heart, but the LORD’s counsel will prevail."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 22,
+    "verse": 1,
+    "reference": "Proverbs 22:1",
+    "short": "Prov 22:1",
+    "text": "A good name is more desirable than great riches, and loving favor is better than silver and gold."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 22,
+    "verse": 6,
+    "reference": "Proverbs 22:6",
+    "short": "Prov 22:6",
+    "text": "Train up a child in the way he should go, and when he is old he will not depart from it."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 27,
+    "verse": 1,
+    "reference": "Proverbs 27:1",
+    "short": "Prov 27:1",
+    "text": "Don’t boast about tomorrow; for you don’t know what a day may bring."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 27,
+    "verse": 17,
+    "reference": "Proverbs 27:17",
+    "short": "Prov 27:17",
+    "text": "Iron sharpens iron; so a man sharpens his friend’s countenance."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 31,
+    "verse": 8,
+    "reference": "Proverbs 31:8",
+    "short": "Prov 31:8",
+    "text": "Open your mouth for the mute, in the cause of all who are left desolate."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 31,
+    "verse": 30,
+    "reference": "Proverbs 31:30",
+    "short": "Prov 31:30",
+    "text": "Charm is deceitful, and beauty is vain; but a woman who fears the LORD, she shall be praised."
+  },
+  {
+    "book": "Ecclesiastes",
+    "chapter": 3,
+    "verse": 1,
+    "reference": "Ecclesiastes 3:1",
+    "short": "Eccl 3:1",
+    "text": "For everything there is a season, and a time for every purpose under heaven:"
+  },
+  {
+    "book": "Ecclesiastes",
+    "chapter": 3,
+    "verse": 11,
+    "reference": "Ecclesiastes 3:11",
+    "short": "Eccl 3:11",
+    "text": "He has made everything beautiful in its time. He has also set eternity in their hearts, yet so that man can’t find out the work that God has done from the beginning even to the end."
+  },
+  {
+    "book": "Ecclesiastes",
+    "chapter": 4,
+    "verse": 12,
+    "reference": "Ecclesiastes 4:12",
+    "short": "Eccl 4:12",
+    "text": "If a man prevails against one who is alone, two shall withstand him; and a threefold cord is not quickly broken."
+  },
+  {
+    "book": "Ecclesiastes",
+    "chapter": 12,
+    "verse": 13,
+    "reference": "Ecclesiastes 12:13",
+    "short": "Eccl 12:13",
+    "text": "This is the end of the matter. All has been heard. Fear God and keep his commandments; for this is the whole duty of man."
+  },
+  {
+    "book": "Song of Solomon",
+    "chapter": 2,
+    "verse": 4,
+    "reference": "Song of Solomon 2:4",
+    "short": "Song 2:4",
+    "text": "He brought me to the banquet hall. His banner over me is love."
+  },
+  {
+    "book": "Song of Solomon",
+    "chapter": 8,
+    "verse": 7,
+    "reference": "Song of Solomon 8:7",
+    "short": "Song 8:7",
+    "text": "Many waters can’t quench love, neither can floods drown it. If a man would give all the wealth of his house for love, he would be utterly scorned."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 1,
+    "verse": 18,
+    "reference": "Isaiah 1:18",
+    "short": "Isa 1:18",
+    "text": "“Come now, and let’s reason together,” says the LORD: “Though your sins are as scarlet, they shall be as white as snow. Though they are red like crimson, they shall be as wool."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 6,
+    "verse": 8,
+    "reference": "Isaiah 6:8",
+    "short": "Isa 6:8",
+    "text": "I heard the Lord’s voice, saying, “Whom shall I send, and who will go for us?” Then I said, “Here I am. Send me!”"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 7,
+    "verse": 14,
+    "reference": "Isaiah 7:14",
+    "short": "Isa 7:14",
+    "text": "Therefore the Lord himself will give you a sign. Behold, the virgin will conceive, and bear a son, and shall call his name Immanuel."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 9,
+    "verse": 6,
+    "reference": "Isaiah 9:6",
+    "short": "Isa 9:6",
+    "text": "For a child is born to us. A son is given to us; and the government will be on his shoulders. His name will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 12,
+    "verse": 2,
+    "reference": "Isaiah 12:2",
+    "short": "Isa 12:2",
+    "text": "Behold, God is my salvation. I will trust, and will not be afraid; for the LORD, the LORD, is my strength and song; and he has become my salvation.”"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 25,
+    "verse": 8,
+    "reference": "Isaiah 25:8",
+    "short": "Isa 25:8",
+    "text": "He has swallowed up death forever! The Lord GOD will wipe away tears from off all faces. He will take the reproach of his people away from off all the earth, for the LORD has spoken it."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 26,
+    "verse": 3,
+    "reference": "Isaiah 26:3",
+    "short": "Isa 26:3",
+    "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 26,
+    "verse": 4,
+    "reference": "Isaiah 26:4",
+    "short": "Isa 26:4",
+    "text": "Trust in the LORD forever; for in the LORD, the LORD, is an everlasting Rock."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 30,
+    "verse": 15,
+    "reference": "Isaiah 30:15",
+    "short": "Isa 30:15",
+    "text": "For thus said the Lord GOD, the Holy One of Israel, “You will be saved in returning and rest. Your strength will be in quietness and in confidence.” You refused,"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 40,
+    "verse": 8,
+    "reference": "Isaiah 40:8",
+    "short": "Isa 40:8",
+    "text": "The grass withers, the flower fades; but the word of our God stands forever.”"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 40,
+    "verse": 29,
+    "reference": "Isaiah 40:29",
+    "short": "Isa 40:29",
+    "text": "He gives power to the weak. He increases the strength of him who has no might."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 40,
+    "verse": 31,
+    "reference": "Isaiah 40:31",
+    "short": "Isa 40:31",
+    "text": "but those who wait for the LORD will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10,
+    "reference": "Isaiah 41:10",
+    "short": "Isa 41:10",
+    "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 13,
+    "reference": "Isaiah 41:13",
+    "short": "Isa 41:13",
+    "text": "For I, the LORD your God, will hold your right hand, saying to you, ‘Don’t be afraid. I will help you.’"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 43,
+    "verse": 1,
+    "reference": "Isaiah 43:1",
+    "short": "Isa 43:1",
+    "text": "But now the LORD who created you, Jacob, and he who formed you, Israel, says: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 43,
+    "verse": 2,
+    "reference": "Isaiah 43:2",
+    "short": "Isa 43:2",
+    "text": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 43,
+    "verse": 19,
+    "reference": "Isaiah 43:19",
+    "short": "Isa 43:19",
+    "text": "Behold, I will do a new thing. It springs out now. Don’t you know it? I will even make a way in the wilderness, and rivers in the desert."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 53,
+    "verse": 5,
+    "reference": "Isaiah 53:5",
+    "short": "Isa 53:5",
+    "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 53,
+    "verse": 6,
+    "reference": "Isaiah 53:6",
+    "short": "Isa 53:6",
+    "text": "All we like sheep have gone astray. Everyone has turned to his own way; and the LORD has laid on him the iniquity of us all."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 54,
+    "verse": 10,
+    "reference": "Isaiah 54:10",
+    "short": "Isa 54:10",
+    "text": "For the mountains may depart, and the hills be removed, but my loving kindness will not depart from you, and my covenant of peace will not be removed,” says the LORD who has mercy on you."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 55,
+    "verse": 6,
+    "reference": "Isaiah 55:6",
+    "short": "Isa 55:6",
+    "text": "Seek the LORD while he may be found. Call on him while he is near."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 55,
+    "verse": 8,
+    "reference": "Isaiah 55:8",
+    "short": "Isa 55:8",
+    "text": "“For my thoughts are not your thoughts, and your ways are not my ways,” says the LORD."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 55,
+    "verse": 9,
+    "reference": "Isaiah 55:9",
+    "short": "Isa 55:9",
+    "text": "“For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 58,
+    "verse": 11,
+    "reference": "Isaiah 58:11",
+    "short": "Isa 58:11",
+    "text": "and the LORD will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 61,
+    "verse": 1,
+    "reference": "Isaiah 61:1",
+    "short": "Isa 61:1",
+    "text": "The Lord GOD’s Spirit is on me, because the LORD has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives and release to those who are bound,"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 64,
+    "verse": 8,
+    "reference": "Isaiah 64:8",
+    "short": "Isa 64:8",
+    "text": "But now, LORD, you are our Father. We are the clay and you our potter. We all are the work of your hand."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 1,
+    "verse": 5,
+    "reference": "Jeremiah 1:5",
+    "short": "Jer 1:5",
+    "text": "“Before I formed you in the womb, I knew you. Before you were born, I sanctified you. I have appointed you a prophet to the nations.”"
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 17,
+    "verse": 7,
+    "reference": "Jeremiah 17:7",
+    "short": "Jer 17:7",
+    "text": "“Blessed is the man who trusts in the LORD, and whose confidence is in the LORD."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 17,
+    "verse": 9,
+    "reference": "Jeremiah 17:9",
+    "short": "Jer 17:9",
+    "text": "The heart is deceitful above all things and it is exceedingly corrupt. Who can know it?"
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11,
+    "reference": "Jeremiah 29:11",
+    "short": "Jer 29:11",
+    "text": "For I know the thoughts that I think toward you,” says the LORD, “thoughts of peace, and not of evil, to give you hope and a future."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 13,
+    "reference": "Jeremiah 29:13",
+    "short": "Jer 29:13",
+    "text": "You shall seek me and find me, when you search for me with all your heart."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 31,
+    "verse": 3,
+    "reference": "Jeremiah 31:3",
+    "short": "Jer 31:3",
+    "text": "The LORD appeared of old to me, saying, “Yes, I have loved you with an everlasting love. Therefore I have drawn you with loving kindness."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 32,
+    "verse": 17,
+    "reference": "Jeremiah 32:17",
+    "short": "Jer 32:17",
+    "text": "“Ah Lord GOD! Behold, you have made the heavens and the earth by your great power and by your outstretched arm. There is nothing too hard for you."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 33,
+    "verse": 3,
+    "reference": "Jeremiah 33:3",
+    "short": "Jer 33:3",
+    "text": "‘Call to me, and I will answer you, and will show you great and difficult things, which you don’t know.’"
+  },
+  {
+    "book": "Lamentations",
+    "chapter": 3,
+    "verse": 22,
+    "reference": "Lamentations 3:22",
+    "short": "Lam 3:22",
+    "text": "It is because of the LORD’s loving kindnesses that we are not consumed, because his mercies don’t fail."
+  },
+  {
+    "book": "Lamentations",
+    "chapter": 3,
+    "verse": 23,
+    "reference": "Lamentations 3:23",
+    "short": "Lam 3:23",
+    "text": "They are new every morning. Great is your faithfulness."
+  },
+  {
+    "book": "Lamentations",
+    "chapter": 3,
+    "verse": 25,
+    "reference": "Lamentations 3:25",
+    "short": "Lam 3:25",
+    "text": "The LORD is good to those who wait for him, to the soul who seeks him."
+  },
+  {
+    "book": "Ezekiel",
+    "chapter": 11,
+    "verse": 19,
+    "reference": "Ezekiel 11:19",
+    "short": "Ezek 11:19",
+    "text": "I will give them one heart, and I will put a new spirit within them. I will take the stony heart out of their flesh, and will give them a heart of flesh,"
+  },
+  {
+    "book": "Ezekiel",
+    "chapter": 34,
+    "verse": 26,
+    "reference": "Ezekiel 34:26",
+    "short": "Ezek 34:26",
+    "text": "I will make them and the places around my hill a blessing. I will cause the shower to come down in its season. There will be showers of blessing."
+  },
+  {
+    "book": "Ezekiel",
+    "chapter": 36,
+    "verse": 26,
+    "reference": "Ezekiel 36:26",
+    "short": "Ezek 36:26",
+    "text": "I will also give you a new heart, and I will put a new spirit within you. I will take away the stony heart out of your flesh, and I will give you a heart of flesh."
+  },
+  {
+    "book": "Daniel",
+    "chapter": 2,
+    "verse": 20,
+    "reference": "Daniel 2:20",
+    "short": "Dan 2:20",
+    "text": "Daniel answered, “Blessed be the name of God forever and ever; for wisdom and might are his."
+  },
+  {
+    "book": "Daniel",
+    "chapter": 3,
+    "verse": 17,
+    "reference": "Daniel 3:17",
+    "short": "Dan 3:17",
+    "text": "If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king."
+  },
+  {
+    "book": "Daniel",
+    "chapter": 6,
+    "verse": 10,
+    "reference": "Daniel 6:10",
+    "short": "Dan 6:10",
+    "text": "When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before."
+  },
+  {
+    "book": "Daniel",
+    "chapter": 9,
+    "verse": 9,
+    "reference": "Daniel 9:9",
+    "short": "Dan 9:9",
+    "text": "To the Lord our God belong mercies and forgiveness, for we have rebelled against him."
+  },
+  {
+    "book": "Daniel",
+    "chapter": 12,
+    "verse": 3,
+    "reference": "Daniel 12:3",
+    "short": "Dan 12:3",
+    "text": "Those who are wise will shine as the brightness of the expanse. Those who turn many to righteousness will shine as the stars forever and ever."
+  },
+  {
+    "book": "Hosea",
+    "chapter": 6,
+    "verse": 3,
+    "reference": "Hosea 6:3",
+    "short": "Hos 6:3",
+    "text": "Let’s acknowledge the LORD. Let’s press on to know the LORD. As surely as the sun rises, the LORD will appear. He will come to us like the rain, like the spring rain that waters the earth.”"
+  },
+  {
+    "book": "Hosea",
+    "chapter": 6,
+    "verse": 6,
+    "reference": "Hosea 6:6",
+    "short": "Hos 6:6",
+    "text": "For I desire mercy, and not sacrifice; and the knowledge of God more than burnt offerings."
+  },
+  {
+    "book": "Hosea",
+    "chapter": 10,
+    "verse": 12,
+    "reference": "Hosea 10:12",
+    "short": "Hos 10:12",
+    "text": "Sow to yourselves in righteousness, reap according to kindness. Break up your fallow ground, for it is time to seek the LORD, until he comes and rains righteousness on you."
+  },
+  {
+    "book": "Joel",
+    "chapter": 2,
+    "verse": 13,
+    "reference": "Joel 2:13",
+    "short": "Joel 2:13",
+    "text": "Tear your heart and not your garments, and turn to the LORD, your God; for he is gracious and merciful, slow to anger, and abundant in loving kindness, and relents from sending calamity."
+  },
+  {
+    "book": "Joel",
+    "chapter": 2,
+    "verse": 25,
+    "reference": "Joel 2:25",
+    "short": "Joel 2:25",
+    "text": "I will restore to you the years that the swarming locust has eaten, the great locust, the grasshopper, and the caterpillar, my great army, which I sent among you."
+  },
+  {
+    "book": "Joel",
+    "chapter": 2,
+    "verse": 32,
+    "reference": "Joel 2:32",
+    "short": "Joel 2:32",
+    "text": "It will happen that whoever will call on the LORD’s name shall be saved; for in Mount Zion and in Jerusalem there will be those who escape, as the LORD has said, and among the remnant, those whom the LORD calls."
+  },
+  {
+    "book": "Amos",
+    "chapter": 5,
+    "verse": 24,
+    "reference": "Amos 5:24",
+    "short": "Amos 5:24",
+    "text": "But let justice roll on like rivers, and righteousness like a mighty stream."
+  },
+  {
+    "book": "Obadiah",
+    "chapter": 1,
+    "verse": 17,
+    "reference": "Obadiah 1:17",
+    "short": "Obad 1:17",
+    "text": "But in Mount Zion, there will be those who escape, and it will be holy. The house of Jacob will possess their possessions."
+  },
+  {
+    "book": "Jonah",
+    "chapter": 2,
+    "verse": 9,
+    "reference": "Jonah 2:9",
+    "short": "Jonah 2:9",
+    "text": "But I will sacrifice to you with the voice of thanksgiving. I will pay that which I have vowed. Salvation belongs to the LORD.”"
+  },
+  {
+    "book": "Micah",
+    "chapter": 6,
+    "verse": 8,
+    "reference": "Micah 6:8",
+    "short": "Mic 6:8",
+    "text": "He has shown you, O man, what is good. What does the LORD require of you, but to act justly, to love mercy, and to walk humbly with your God?"
+  },
+  {
+    "book": "Micah",
+    "chapter": 7,
+    "verse": 7,
+    "reference": "Micah 7:7",
+    "short": "Mic 7:7",
+    "text": "But as for me, I will look to the LORD. I will wait for the God of my salvation. My God will hear me."
+  },
+  {
+    "book": "Nahum",
+    "chapter": 1,
+    "verse": 7,
+    "reference": "Nahum 1:7",
+    "short": "Nah 1:7",
+    "text": "The LORD is good, a stronghold in the day of trouble; and he knows those who take refuge in him."
+  },
+  {
+    "book": "Habakkuk",
+    "chapter": 2,
+    "verse": 4,
+    "reference": "Habakkuk 2:4",
+    "short": "Hab 2:4",
+    "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith."
+  },
+  {
+    "book": "Habakkuk",
+    "chapter": 3,
+    "verse": 19,
+    "reference": "Habakkuk 3:19",
+    "short": "Hab 3:19",
+    "text": "GOD, the Lord, is my strength. He makes my feet like deer’s feet, and enables me to go in high places. For the music director, on my stringed instruments."
+  },
+  {
+    "book": "Zephaniah",
+    "chapter": 3,
+    "verse": 17,
+    "reference": "Zephaniah 3:17",
+    "short": "Zeph 3:17",
+    "text": "The LORD, your God, is among you, a mighty one who will save. He will rejoice over you with joy. He will calm you in his love. He will rejoice over you with singing."
+  },
+  {
+    "book": "Haggai",
+    "chapter": 2,
+    "verse": 9,
+    "reference": "Haggai 2:9",
+    "short": "Hag 2:9",
+    "text": "‘The latter glory of this house will be greater than the former,’ says the LORD of Armies; ‘and in this place I will give peace,’ says the LORD of Armies.”"
+  },
+  {
+    "book": "Zechariah",
+    "chapter": 4,
+    "verse": 6,
+    "reference": "Zechariah 4:6",
+    "short": "Zech 4:6",
+    "text": "Then he answered and spoke to me, saying, “This is the LORD’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says the LORD of Armies."
+  },
+  {
+    "book": "Zechariah",
+    "chapter": 9,
+    "verse": 9,
+    "reference": "Zechariah 9:9",
+    "short": "Zech 9:9",
+    "text": "Rejoice greatly, daughter of Zion! Shout, daughter of Jerusalem! Behold, your King comes to you! He is righteous, and having salvation; lowly, and riding on a donkey, even on a colt, the foal of a donkey."
+  },
+  {
+    "book": "Malachi",
+    "chapter": 3,
+    "verse": 6,
+    "reference": "Malachi 3:6",
+    "short": "Mal 3:6",
+    "text": "“For I, the LORD, don’t change; therefore you, sons of Jacob, are not consumed."
+  },
+  {
+    "book": "Malachi",
+    "chapter": 3,
+    "verse": 10,
+    "reference": "Malachi 3:10",
+    "short": "Mal 3:10",
+    "text": "Bring the whole tithe into the storehouse, that there may be food in my house, and test me now in this,” says the LORD of Armies, “if I will not open you the windows of heaven, and pour you out a blessing, that there will not be enough room for."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 4,
+    "verse": 4,
+    "reference": "Matthew 4:4",
+    "short": "Matt 4:4",
+    "text": "But he answered, “It is written, ‘Man shall not live by bread alone, but by every word that proceeds out of God’s mouth.’”"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 4,
+    "verse": 19,
+    "reference": "Matthew 4:19",
+    "short": "Matt 4:19",
+    "text": "He said to them, “Come after me, and I will make you fishers for men.”"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 3,
+    "reference": "Matthew 5:3",
+    "short": "Matt 5:3",
+    "text": "“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 4,
+    "reference": "Matthew 5:4",
+    "short": "Matt 5:4",
+    "text": "Blessed are those who mourn, for they shall be comforted."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 5,
+    "reference": "Matthew 5:5",
+    "short": "Matt 5:5",
+    "text": "Blessed are the gentle, for they shall inherit the earth."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 6,
+    "reference": "Matthew 5:6",
+    "short": "Matt 5:6",
+    "text": "Blessed are those who hunger and thirst for righteousness, for they shall be filled."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 7,
+    "reference": "Matthew 5:7",
+    "short": "Matt 5:7",
+    "text": "Blessed are the merciful, for they shall obtain mercy."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 8,
+    "reference": "Matthew 5:8",
+    "short": "Matt 5:8",
+    "text": "Blessed are the pure in heart, for they shall see God."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 9,
+    "reference": "Matthew 5:9",
+    "short": "Matt 5:9",
+    "text": "Blessed are the peacemakers, for they shall be called children of God."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 14,
+    "reference": "Matthew 5:14",
+    "short": "Matt 5:14",
+    "text": "“You are the light of the world. A city located on a hill can’t be hidden."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 16,
+    "reference": "Matthew 5:16",
+    "short": "Matt 5:16",
+    "text": "Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 44,
+    "reference": "Matthew 5:44",
+    "short": "Matt 5:44",
+    "text": "But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 9,
+    "reference": "Matthew 6:9",
+    "short": "Matt 6:9",
+    "text": "Pray like this: “‘Our Father in heaven, may your name be kept holy."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 14,
+    "reference": "Matthew 6:14",
+    "short": "Matt 6:14",
+    "text": "“For if you forgive men their trespasses, your heavenly Father will also forgive you."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 21,
+    "reference": "Matthew 6:21",
+    "short": "Matt 6:21",
+    "text": "for where your treasure is, there your heart will be also."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 33,
+    "reference": "Matthew 6:33",
+    "short": "Matt 6:33",
+    "text": "But seek first God’s Kingdom and his righteousness; and all these things will be given to you as well."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 34,
+    "reference": "Matthew 6:34",
+    "short": "Matt 6:34",
+    "text": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 7,
+    "verse": 7,
+    "reference": "Matthew 7:7",
+    "short": "Matt 7:7",
+    "text": "“Ask, and it will be given you. Seek, and you will find. Knock, and it will be opened for you."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 7,
+    "verse": 12,
+    "reference": "Matthew 7:12",
+    "short": "Matt 7:12",
+    "text": "Therefore, whatever you desire for men to do to you, you shall also do to them; for this is the law and the prophets."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 11,
+    "verse": 28,
+    "reference": "Matthew 11:28",
+    "short": "Matt 11:28",
+    "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 11,
+    "verse": 29,
+    "reference": "Matthew 11:29",
+    "short": "Matt 11:29",
+    "text": "Take my yoke upon you and learn from me, for I am gentle and humble in heart; and you will find rest for your souls."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 16,
+    "verse": 24,
+    "reference": "Matthew 16:24",
+    "short": "Matt 16:24",
+    "text": "Then Jesus said to his disciples, “If anyone desires to come after me, let him deny himself, take up his cross, and follow me."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 16,
+    "verse": 26,
+    "reference": "Matthew 16:26",
+    "short": "Matt 16:26",
+    "text": "For what will it profit a man if he gains the whole world and forfeits his life? Or what will a man give in exchange for his life?"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 19,
+    "verse": 14,
+    "reference": "Matthew 19:14",
+    "short": "Matt 19:14",
+    "text": "But Jesus said, “Allow the little children, and don’t forbid them to come to me; for the Kingdom of Heaven belongs to ones like these.”"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 19,
+    "verse": 26,
+    "reference": "Matthew 19:26",
+    "short": "Matt 19:26",
+    "text": "Looking at them, Jesus said, “With men this is impossible, but with God all things are possible.”"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 22,
+    "verse": 37,
+    "reference": "Matthew 22:37",
+    "short": "Matt 22:37",
+    "text": "Jesus said to him, “‘You shall love the Lord your God with all your heart, with all your soul, and with all your mind.’"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 22,
+    "verse": 39,
+    "reference": "Matthew 22:39",
+    "short": "Matt 22:39",
+    "text": "A second likewise is this, ‘You shall love your neighbor as yourself.’"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 28,
+    "verse": 6,
+    "reference": "Matthew 28:6",
+    "short": "Matt 28:6",
+    "text": "He is not here, for he has risen, just like he said. Come, see the place where the Lord was lying."
+  },
+  {
+    "book": "Matthew",
+    "chapter": 28,
+    "verse": 19,
+    "reference": "Matthew 28:19",
+    "short": "Matt 28:19",
+    "text": "Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 28,
+    "verse": 20,
+    "reference": "Matthew 28:20",
+    "short": "Matt 28:20",
+    "text": "teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen."
+  },
+  {
+    "book": "Mark",
+    "chapter": 8,
+    "verse": 34,
+    "reference": "Mark 8:34",
+    "short": "Mark 8:34",
+    "text": "He called the multitude to himself with his disciples and said to them, “Whoever wants to come after me, let him deny himself, and take up his cross, and follow me."
+  },
+  {
+    "book": "Mark",
+    "chapter": 8,
+    "verse": 36,
+    "reference": "Mark 8:36",
+    "short": "Mark 8:36",
+    "text": "For what does it profit a man to gain the whole world and forfeit his life?"
+  },
+  {
+    "book": "Mark",
+    "chapter": 9,
+    "verse": 23,
+    "reference": "Mark 9:23",
+    "short": "Mark 9:23",
+    "text": "Jesus said to him, “If you can believe, all things are possible to him who believes.”"
+  },
+  {
+    "book": "Mark",
+    "chapter": 10,
+    "verse": 27,
+    "reference": "Mark 10:27",
+    "short": "Mark 10:27",
+    "text": "Jesus, looking at them, said, “With men it is impossible, but not with God, for all things are possible with God.”"
+  },
+  {
+    "book": "Mark",
+    "chapter": 10,
+    "verse": 45,
+    "reference": "Mark 10:45",
+    "short": "Mark 10:45",
+    "text": "For the Son of Man also came not to be served but to serve, and to give his life as a ransom for many.”"
+  },
+  {
+    "book": "Mark",
+    "chapter": 11,
+    "verse": 24,
+    "reference": "Mark 11:24",
+    "short": "Mark 11:24",
+    "text": "Therefore I tell you, all things whatever you pray and ask for, believe that you have received them, and you shall have them."
+  },
+  {
+    "book": "Mark",
+    "chapter": 12,
+    "verse": 30,
+    "reference": "Mark 12:30",
+    "short": "Mark 12:30",
+    "text": "You shall love the Lord your God with all your heart, with all your soul, with all your mind, and with all your strength.’ This is the first commandment."
+  },
+  {
+    "book": "Mark",
+    "chapter": 12,
+    "verse": 31,
+    "reference": "Mark 12:31",
+    "short": "Mark 12:31",
+    "text": "The second is like this: ‘You shall love your neighbor as yourself.’ There is no other commandment greater than these.”"
+  },
+  {
+    "book": "Mark",
+    "chapter": 16,
+    "verse": 15,
+    "reference": "Mark 16:15",
+    "short": "Mark 16:15",
+    "text": "He said to them, “Go into all the world and preach the Good News to the whole creation."
+  },
+  {
+    "book": "Luke",
+    "chapter": 1,
+    "verse": 37,
+    "reference": "Luke 1:37",
+    "short": "Luke 1:37",
+    "text": "For nothing spoken by God is impossible.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 1,
+    "verse": 47,
+    "reference": "Luke 1:47",
+    "short": "Luke 1:47",
+    "text": "My spirit has rejoiced in God my Savior,"
+  },
+  {
+    "book": "Luke",
+    "chapter": 2,
+    "verse": 10,
+    "reference": "Luke 2:10",
+    "short": "Luke 2:10",
+    "text": "The angel said to them, “Don’t be afraid, for behold, I bring you good news of great joy which will be to all the people."
+  },
+  {
+    "book": "Luke",
+    "chapter": 2,
+    "verse": 11,
+    "reference": "Luke 2:11",
+    "short": "Luke 2:11",
+    "text": "For there is born to you today, in David’s city, a Savior, who is Christ the Lord."
+  },
+  {
+    "book": "Luke",
+    "chapter": 2,
+    "verse": 14,
+    "reference": "Luke 2:14",
+    "short": "Luke 2:14",
+    "text": "“Glory to God in the highest, on earth peace, good will toward men.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 6,
+    "verse": 31,
+    "reference": "Luke 6:31",
+    "short": "Luke 6:31",
+    "text": "“As you would like people to do to you, do exactly so to them."
+  },
+  {
+    "book": "Luke",
+    "chapter": 6,
+    "verse": 38,
+    "reference": "Luke 6:38",
+    "short": "Luke 6:38",
+    "text": "“Give, and it will be given to you: good measure, pressed down, shaken together, and running over, will be given to you. For with the same measure you measure it will be measured back to you.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 9,
+    "verse": 23,
+    "reference": "Luke 9:23",
+    "short": "Luke 9:23",
+    "text": "He said to all, “If anyone desires to come after me, let him deny himself, take up his cross, and follow me."
+  },
+  {
+    "book": "Luke",
+    "chapter": 10,
+    "verse": 27,
+    "reference": "Luke 10:27",
+    "short": "Luke 10:27",
+    "text": "He answered, “You shall love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind; and your neighbor as yourself.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 11,
+    "verse": 9,
+    "reference": "Luke 11:9",
+    "short": "Luke 11:9",
+    "text": "“I tell you, keep asking, and it will be given you. Keep seeking, and you will find. Keep knocking, and it will be opened to you."
+  },
+  {
+    "book": "Luke",
+    "chapter": 12,
+    "verse": 15,
+    "reference": "Luke 12:15",
+    "short": "Luke 12:15",
+    "text": "He said to them, “Beware! Keep yourselves from covetousness, for a man’s life doesn’t consist of the abundance of the things which he possesses.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 12,
+    "verse": 32,
+    "reference": "Luke 12:32",
+    "short": "Luke 12:32",
+    "text": "“Don’t be afraid, little flock, for it is your Father’s good pleasure to give you the Kingdom."
+  },
+  {
+    "book": "Luke",
+    "chapter": 15,
+    "verse": 10,
+    "reference": "Luke 15:10",
+    "short": "Luke 15:10",
+    "text": "Even so, I tell you, there is joy in the presence of the angels of God over one sinner repenting.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 19,
+    "verse": 10,
+    "reference": "Luke 19:10",
+    "short": "Luke 19:10",
+    "text": "For the Son of Man came to seek and to save that which was lost.”"
+  },
+  {
+    "book": "Luke",
+    "chapter": 23,
+    "verse": 34,
+    "reference": "Luke 23:34",
+    "short": "Luke 23:34",
+    "text": "Jesus said, “Father, forgive them, for they don’t know what they are doing.” Dividing his garments among them, they cast lots."
+  },
+  {
+    "book": "Luke",
+    "chapter": 24,
+    "verse": 6,
+    "reference": "Luke 24:6",
+    "short": "Luke 24:6",
+    "text": "He isn’t here, but is risen. Remember what he told you when he was still in Galilee,"
+  },
+  {
+    "book": "John",
+    "chapter": 1,
+    "verse": 1,
+    "reference": "John 1:1",
+    "short": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+  },
+  {
+    "book": "John",
+    "chapter": 1,
+    "verse": 12,
+    "reference": "John 1:12",
+    "short": "John 1:12",
+    "text": "But as many as received him, to them he gave the right to become God’s children, to those who believe in his name:"
+  },
+  {
+    "book": "John",
+    "chapter": 1,
+    "verse": 14,
+    "reference": "John 1:14",
+    "short": "John 1:14",
+    "text": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth."
+  },
+  {
+    "book": "John",
+    "chapter": 3,
+    "verse": 16,
+    "reference": "John 3:16",
+    "short": "John 3:16",
+    "text": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
+  },
+  {
+    "book": "John",
+    "chapter": 3,
+    "verse": 17,
+    "reference": "John 3:17",
+    "short": "John 3:17",
+    "text": "For God didn’t send his Son into the world to judge the world, but that the world should be saved through him."
+  },
+  {
+    "book": "John",
+    "chapter": 3,
+    "verse": 30,
+    "reference": "John 3:30",
+    "short": "John 3:30",
+    "text": "He must increase, but I must decrease."
+  },
+  {
+    "book": "John",
+    "chapter": 4,
+    "verse": 24,
+    "reference": "John 4:24",
+    "short": "John 4:24",
+    "text": "God is spirit, and those who worship him must worship in spirit and truth.”"
+  },
+  {
+    "book": "John",
+    "chapter": 6,
+    "verse": 35,
+    "reference": "John 6:35",
+    "short": "John 6:35",
+    "text": "Jesus said to them, “I am the bread of life. Whoever comes to me will not be hungry, and whoever believes in me will never be thirsty."
+  },
+  {
+    "book": "John",
+    "chapter": 8,
+    "verse": 12,
+    "reference": "John 8:12",
+    "short": "John 8:12",
+    "text": "Again, therefore, Jesus spoke to them, saying, “I am the light of the world. He who follows me will not walk in the darkness, but will have the light of life.”"
+  },
+  {
+    "book": "John",
+    "chapter": 8,
+    "verse": 32,
+    "reference": "John 8:32",
+    "short": "John 8:32",
+    "text": "You will know the truth, and the truth will make you free.”"
+  },
+  {
+    "book": "John",
+    "chapter": 10,
+    "verse": 10,
+    "reference": "John 10:10",
+    "short": "John 10:10",
+    "text": "The thief only comes to steal, kill, and destroy. I came that they may have life, and may have it abundantly."
+  },
+  {
+    "book": "John",
+    "chapter": 10,
+    "verse": 11,
+    "reference": "John 10:11",
+    "short": "John 10:11",
+    "text": "“I am the good shepherd. The good shepherd lays down his life for the sheep."
+  },
+  {
+    "book": "John",
+    "chapter": 11,
+    "verse": 25,
+    "reference": "John 11:25",
+    "short": "John 11:25",
+    "text": "Jesus said to her, “I am the resurrection and the life. He who believes in me will still live, even if he dies."
+  },
+  {
+    "book": "John",
+    "chapter": 13,
+    "verse": 34,
+    "reference": "John 13:34",
+    "short": "John 13:34",
+    "text": "A new commandment I give to you, that you love one another. Just as I have loved you, you also love one another."
+  },
+  {
+    "book": "John",
+    "chapter": 13,
+    "verse": 35,
+    "reference": "John 13:35",
+    "short": "John 13:35",
+    "text": "By this everyone will know that you are my disciples, if you have love for one another.”"
+  },
+  {
+    "book": "John",
+    "chapter": 14,
+    "verse": 1,
+    "reference": "John 14:1",
+    "short": "John 14:1",
+    "text": "“Don’t let your heart be troubled. Believe in God. Believe also in me."
+  },
+  {
+    "book": "John",
+    "chapter": 14,
+    "verse": 6,
+    "reference": "John 14:6",
+    "short": "John 14:6",
+    "text": "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father, except through me."
+  },
+  {
+    "book": "John",
+    "chapter": 14,
+    "verse": 27,
+    "reference": "John 14:27",
+    "short": "John 14:27",
+    "text": "Peace I leave with you. My peace I give to you; not as the world gives, I give to you. Don’t let your heart be troubled, neither let it be fearful."
+  },
+  {
+    "book": "John",
+    "chapter": 15,
+    "verse": 5,
+    "reference": "John 15:5",
+    "short": "John 15:5",
+    "text": "I am the vine. You are the branches. He who remains in me and I in him bears much fruit, for apart from me you can do nothing."
+  },
+  {
+    "book": "John",
+    "chapter": 15,
+    "verse": 12,
+    "reference": "John 15:12",
+    "short": "John 15:12",
+    "text": "“This is my commandment, that you love one another, even as I have loved you."
+  },
+  {
+    "book": "John",
+    "chapter": 15,
+    "verse": 13,
+    "reference": "John 15:13",
+    "short": "John 15:13",
+    "text": "Greater love has no one than this, that someone lay down his life for his friends."
+  },
+  {
+    "book": "John",
+    "chapter": 16,
+    "verse": 33,
+    "reference": "John 16:33",
+    "short": "John 16:33",
+    "text": "I have told you these things, that in me you may have peace. In the world you have trouble; but cheer up! I have overcome the world.”"
+  },
+  {
+    "book": "John",
+    "chapter": 20,
+    "verse": 29,
+    "reference": "John 20:29",
+    "short": "John 20:29",
+    "text": "Jesus said to him, “Because you have seen me, you have believed. Blessed are those who have not seen and have believed.”"
+  },
+  {
+    "book": "John",
+    "chapter": 20,
+    "verse": 31,
+    "reference": "John 20:31",
+    "short": "John 20:31",
+    "text": "but these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in his name."
+  },
+  {
+    "book": "Acts",
+    "chapter": 1,
+    "verse": 8,
+    "reference": "Acts 1:8",
+    "short": "Acts 1:8",
+    "text": "But you will receive power when the Holy Spirit has come upon you. You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.”"
+  },
+  {
+    "book": "Acts",
+    "chapter": 2,
+    "verse": 38,
+    "reference": "Acts 2:38",
+    "short": "Acts 2:38",
+    "text": "Peter said to them, “Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of sins, and you will receive the gift of the Holy Spirit."
+  },
+  {
+    "book": "Acts",
+    "chapter": 4,
+    "verse": 12,
+    "reference": "Acts 4:12",
+    "short": "Acts 4:12",
+    "text": "There is salvation in no one else, for there is no other name under heaven that is given among men, by which we must be saved!”"
+  },
+  {
+    "book": "Acts",
+    "chapter": 16,
+    "verse": 31,
+    "reference": "Acts 16:31",
+    "short": "Acts 16:31",
+    "text": "They said, “Believe in the Lord Jesus Christ, and you will be saved, you and your household.”"
+  },
+  {
+    "book": "Acts",
+    "chapter": 17,
+    "verse": 11,
+    "reference": "Acts 17:11",
+    "short": "Acts 17:11",
+    "text": "Now these were more noble than those in Thessalonica, in that they received the word with all readiness of mind, examining the Scriptures daily to see whether these things were so."
+  },
+  {
+    "book": "Acts",
+    "chapter": 20,
+    "verse": 24,
+    "reference": "Acts 20:24",
+    "short": "Acts 20:24",
+    "text": "But these things don’t count; nor do I hold my life dear to myself, so that I may finish my race with joy, and the ministry which I received from the Lord Jesus, to fully testify to the Good News of the grace of God."
+  },
+  {
+    "book": "Romans",
+    "chapter": 1,
+    "verse": 16,
+    "reference": "Romans 1:16",
+    "short": "Rom 1:16",
+    "text": "For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes, for the Jew first, and also for the Greek."
+  },
+  {
+    "book": "Romans",
+    "chapter": 3,
+    "verse": 23,
+    "reference": "Romans 3:23",
+    "short": "Rom 3:23",
+    "text": "for all have sinned, and fall short of the glory of God;"
+  },
+  {
+    "book": "Romans",
+    "chapter": 5,
+    "verse": 1,
+    "reference": "Romans 5:1",
+    "short": "Rom 5:1",
+    "text": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ;"
+  },
+  {
+    "book": "Romans",
+    "chapter": 5,
+    "verse": 8,
+    "reference": "Romans 5:8",
+    "short": "Rom 5:8",
+    "text": "But God commends his own love toward us, in that while we were yet sinners, Christ died for us."
+  },
+  {
+    "book": "Romans",
+    "chapter": 6,
+    "verse": 23,
+    "reference": "Romans 6:23",
+    "short": "Rom 6:23",
+    "text": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 1,
+    "reference": "Romans 8:1",
+    "short": "Rom 8:1",
+    "text": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit."
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 18,
+    "reference": "Romans 8:18",
+    "short": "Rom 8:18",
+    "text": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us."
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 28,
+    "reference": "Romans 8:28",
+    "short": "Rom 8:28",
+    "text": "We know that all things work together for good for those who love God, for those who are called according to his purpose."
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 31,
+    "reference": "Romans 8:31",
+    "short": "Rom 8:31",
+    "text": "What then shall we say about these things? If God is for us, who can be against us?"
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 37,
+    "reference": "Romans 8:37",
+    "short": "Rom 8:37",
+    "text": "No, in all these things we are more than conquerors through him who loved us."
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 38,
+    "reference": "Romans 8:38",
+    "short": "Rom 8:38",
+    "text": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers,"
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 39,
+    "reference": "Romans 8:39",
+    "short": "Rom 8:39",
+    "text": "nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord."
+  },
+  {
+    "book": "Romans",
+    "chapter": 10,
+    "verse": 9,
+    "reference": "Romans 10:9",
+    "short": "Rom 10:9",
+    "text": "that if you will confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved."
+  },
+  {
+    "book": "Romans",
+    "chapter": 10,
+    "verse": 13,
+    "reference": "Romans 10:13",
+    "short": "Rom 10:13",
+    "text": "For, “Whoever will call on the name of the Lord will be saved.”"
+  },
+  {
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 1,
+    "reference": "Romans 12:1",
+    "short": "Rom 12:1",
+    "text": "Therefore I urge you, brothers, by the mercies of God, to present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service."
+  },
+  {
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 2,
+    "reference": "Romans 12:2",
+    "short": "Rom 12:2",
+    "text": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God."
+  },
+  {
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 12,
+    "reference": "Romans 12:12",
+    "short": "Rom 12:12",
+    "text": "rejoicing in hope, enduring in troubles, continuing steadfastly in prayer,"
+  },
+  {
+    "book": "Romans",
+    "chapter": 12,
+    "verse": 21,
+    "reference": "Romans 12:21",
+    "short": "Rom 12:21",
+    "text": "Don’t be overcome by evil, but overcome evil with good."
+  },
+  {
+    "book": "Romans",
+    "chapter": 15,
+    "verse": 13,
+    "reference": "Romans 15:13",
+    "short": "Rom 15:13",
+    "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope in the power of the Holy Spirit."
+  },
+  {
+    "book": "1 Corinthians",
+    "chapter": 1,
+    "verse": 18,
+    "reference": "1 Corinthians 1:18",
+    "short": "1 Cor 1:18",
+    "text": "For the word of the cross is foolishness to those who are dying, but to us who are being saved it is the power of God."
+  }
+]
