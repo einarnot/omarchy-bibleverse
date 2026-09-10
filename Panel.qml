@@ -64,6 +64,22 @@ Panel {
     Quickshell.execDetached(["omarchy-notification-send", "-g", "󰂺", "Copied " + (verse ? verse.reference : "verse")])
   }
 
+  function askAgent() {
+    if (!verse) return
+
+    // Construct the prompt with the verse text and request for interpretation
+    var prompt = "Please provide common and established interpretations and explanations of the following Bible verse:\n\n" +
+                 verse.reference + " (WEB):\n" +
+                 "\"" + verse.text + "\"\n\n" +
+                 "What are the key themes, historical context, and scholarly interpretations of this verse?"
+
+    // Send to the default agent via IPC
+    Quickshell.execDetached(["bash", "-c", "echo " + Util.shellQuote(prompt) + " | omarchy-agent"])
+
+    // Show notification
+    Quickshell.execDetached(["omarchy-notification-send", "-g", "󰚀", "Sent to agent: " + verse.reference])
+  }
+
   KeyboardPanel {
     id: panel
     anchorItem: root.anchorItem
@@ -83,6 +99,7 @@ Panel {
       onTabRequested: function(direction) { root.switchPanel(direction) }
       onTextKey: function(t) {
         if (t === "c" || t === "C") root.copyVerse()
+        if (t === "a" || t === "A") root.askAgent()
       }
 
       Flickable {
@@ -153,7 +170,7 @@ Panel {
 
           Item {
             width: parent.width
-            height: Math.max(copyHint.height, copyButton.height)
+            height: Math.max(copyHint.height, buttonsRow.height)
 
             Text {
               id: copyHint
@@ -166,31 +183,64 @@ Panel {
               font.letterSpacing: 1
             }
 
-            Rectangle {
-              id: copyButton
+            Row {
+              id: buttonsRow
               anchors.right: parent.right
               anchors.verticalCenter: parent.verticalCenter
-              width: copyLabel.implicitWidth + Style.space(16)
-              height: copyLabel.implicitHeight + Style.space(8)
-              radius: Math.min(4, Style.cornerRadius)
-              color: copyArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
+              spacing: Style.space(8)
 
-              Text {
-                id: copyLabel
-                anchors.centerIn: parent
-                text: "COPY"
-                color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
-                font.family: root.contentFontFamily
-                font.pixelSize: Style.font.caption
-                font.letterSpacing: 1
+              // Ask Agent Button
+              Rectangle {
+                id: agentButton
+                width: agentLabel.implicitWidth + Style.space(16)
+                height: agentLabel.implicitHeight + Style.space(8)
+                radius: Math.min(4, Style.cornerRadius)
+                color: agentArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
+
+                Text {
+                  id: agentLabel
+                  anchors.centerIn: parent
+                  text: "ASK"
+                  color: agentArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
+                  font.family: root.contentFontFamily
+                  font.pixelSize: Style.font.caption
+                  font.letterSpacing: 1
+                }
+
+                MouseArea {
+                  id: agentArea
+                  anchors.fill: parent
+                  hoverEnabled: true
+                  cursorShape: Qt.PointingHandCursor
+                  onClicked: root.askAgent()
+                }
               }
 
-              MouseArea {
-                id: copyArea
-                anchors.fill: parent
-                hoverEnabled: true
-                cursorShape: Qt.PointingHandCursor
-                onClicked: root.copyVerse()
+              // Copy Button
+              Rectangle {
+                id: copyButton
+                width: copyLabel.implicitWidth + Style.space(16)
+                height: copyLabel.implicitHeight + Style.space(8)
+                radius: Math.min(4, Style.cornerRadius)
+                color: copyArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
+
+                Text {
+                  id: copyLabel
+                  anchors.centerIn: parent
+                  text: "COPY"
+                  color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
+                  font.family: root.contentFontFamily
+                  font.pixelSize: Style.font.caption
+                  font.letterSpacing: 1
+                }
+
+                MouseArea {
+                  id: copyArea
+                  anchors.fill: parent
+                  hoverEnabled: true
+                  cursorShape: Qt.PointingHandCursor
+                  onClicked: root.copyVerse()
+                }
               }
             }
           }
