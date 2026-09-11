@@ -1,8 +1,10 @@
 # Daily Bible Verse
 
-A bar widget for [Omarchy](https://omarchy.org/) that shows today's World English Bible verse. Click it for the full text; right-click copies the verse.
+A bar widget for [Omarchy](https://omarchy.org/) that shows a daily World English Bible verse. Click it for the full text; right-click copies the verse.
 
-The verse is chosen from a bundled 366-verse list by calendar day, so it stays the same all day, works offline, and needs no API key.
+Verses are bundled offline (no API key). References come from [OpenBible.info](https://openbible.info/topics/); the full WEB text ships in `verses.json`.
+
+Each user gets a **random-looking verse that stays fixed for their local calendar day**. Different users (different `$USER`) get different verses on the same day.
 
 ## Install
 
@@ -33,6 +35,21 @@ omarchy bar set einarnot.bibleverse format reference
 
 Set it back with `short`.
 
+## Regenerating verses
+
+```sh
+python3 scripts/build-verses.py
+```
+
+This downloads OpenBible topic scores and the WEB verse-per-line text, collects
+unique single-verse references, then curates them down to verses that work
+standalone (no mid-story narrative, genealogies, or ritual fragments):
+
+```sh
+python3 scripts/build-verses.py   # fetch + build + curate
+python3 scripts/curate-verses.py  # re-run curation only
+```
+
 ## Remove
 
 ```sh
@@ -43,4 +60,7 @@ Removal only disables and deletes this plugin checkout. It does not change other
 
 ## License
 
-Plugin code is MIT. Verse text is World English Bible, public domain.
+Plugin code is MIT.
+
+- **Verse text:** World English Bible (WEB), public domain
+- **Reference list:** derived from [OpenBible.info](https://openbible.info/topics/) topical data under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: single-verse refs only; WEB text instead of ESV quotations shown on OpenBible.info.

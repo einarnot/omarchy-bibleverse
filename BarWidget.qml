@@ -10,8 +10,11 @@ BarWidget {
   moduleName: "einarnot.bibleverse"
 
   property var verses: []
+  property string pluginVersion: ""
   property date today: clock.date
-  readonly property var verse: Model.verseForDate(verses, today)
+  readonly property string userId: Quickshell.env("USER") || Quickshell.env("USERNAME") || "local"
+  readonly property string resolvedVersion: Model.versionFromRegistry(root.bar, root.moduleName) || pluginVersion
+  readonly property var verse: Model.verseForDate(verses, today, userId)
   readonly property string configuredFormat: setting("format", "short")
   readonly property string displayText: Model.barLabel(verse, configuredFormat) || "Bible"
   readonly property var verticalLines: Model.verticalLines(displayText)
@@ -60,6 +63,8 @@ BarWidget {
     if ("hostWidget" in target) target.hostWidget = root
     if ("verses" in target) target.verses = root.verses
     if ("today" in target) target.today = root.today
+    if ("userId" in target) target.userId = root.userId
+    if ("pluginVersion" in target) target.pluginVersion = root.resolvedVersion
   }
 
   implicitWidth: button.implicitWidth
@@ -69,6 +74,8 @@ BarWidget {
   onSettingsChanged: injectPanel()
   onVersesChanged: injectPanel()
   onTodayChanged: injectPanel()
+  onPluginVersionChanged: injectPanel()
+  onResolvedVersionChanged: injectPanel()
 
   SystemClock {
     id: clock
@@ -88,6 +95,21 @@ BarWidget {
     onLoaded: root.verses = Model.parseVerses(text())
     onLoadFailed: root.verses = []
   }
+
+  FileView {
+    id: manifestFile
+    path: Model.fileUrlToPath(Qt.resolvedUrl("manifest.json"))
+    watchChanges: true
+    printErrors: false
+    onFileChanged: reload()
+    onLoaded: root.pluginVersion = Model.parseManifestVersion(text())
+    onLoadFailed: root.pluginVersion = ""
+  }
+
+  Component.onCompleted: Qt.callLater(function() {
+    manifestFile.reload()
+    root.injectPanel()
+  })
 
   Loader {
     id: panelLoader

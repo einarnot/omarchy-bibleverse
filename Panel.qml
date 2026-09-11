@@ -14,15 +14,23 @@ Panel {
   property var hostWidget: null
   property var verses: []
   property date today: new Date()
+  property string userId: Quickshell.env("USER") || Quickshell.env("USERNAME") || "local"
+  property string pluginVersion: ""
 
   readonly property var barIdentity: hostWidget || root
-  readonly property var verse: Model.verseForDate(verses, today)
+  readonly property var verse: Model.verseForDate(verses, today, userId)
   readonly property string copyText: Model.copyPayload(verse)
   readonly property color contentForeground: bar ? bar.barForeground : Color.foreground
   readonly property string contentFontFamily: bar ? bar.fontFamily : Style.font.family
+  readonly property string licenseText: "WEB · public domain"
+  readonly property string attributionText: "Refs CC BY 4.0 OpenBible.info"
+  readonly property string resolvedVersion: Model.versionFromRegistry(root.bar, root.moduleName) || pluginVersion
+  readonly property string versionText: Model.displayVersion(resolvedVersion)
 
   function open() {
     refresh()
+    var version = Model.versionFromRegistry(root.bar, root.moduleName)
+    if (version) root.pluginVersion = version
     root.controller.show()
     Qt.callLater(function() {
       if (root.opened) setCenterHoverRevealSuppressed(true)
@@ -168,85 +176,121 @@ Panel {
             opacity: 0.12
           }
 
-          Item {
+          Column {
             width: parent.width
-            height: Math.max(copyHint.height, buttonsRow.height)
+            spacing: Style.space(6)
 
-            Text {
-              id: copyHint
-              anchors.left: parent.left
-              anchors.verticalCenter: parent.verticalCenter
-              text: "WEB · public domain"
-              color: Qt.darker(root.contentForeground, 1.5)
-              font.family: root.contentFontFamily
-              font.pixelSize: Style.font.caption
-              font.letterSpacing: 1
-            }
+            Item {
+              width: parent.width
+              height: Math.max(licenseHint.height, buttonsRow.height)
 
-            Row {
-              id: buttonsRow
-              anchors.right: parent.right
-              anchors.verticalCenter: parent.verticalCenter
-              spacing: Style.space(8)
-
-              // Copy Button
-              Rectangle {
-                id: copyButton
-                width: copyLabel.implicitWidth + Style.space(16)
-                height: copyLabel.implicitHeight + Style.space(8)
-                radius: Math.min(4, Style.cornerRadius)
-                color: copyArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
-
-                Text {
-                  id: copyLabel
-                  anchors.centerIn: parent
-                  text: "COPY"
-                  color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
-                  font.family: root.contentFontFamily
-                  font.pixelSize: Style.font.caption
-                  font.letterSpacing: 1
-                }
-
-                MouseArea {
-                  id: copyArea
-                  anchors.fill: parent
-                  hoverEnabled: true
-                  cursorShape: Qt.PointingHandCursor
-                  onClicked: root.copyVerse()
-                }
+              Text {
+                id: licenseHint
+                anchors.left: parent.left
+                anchors.verticalCenter: parent.verticalCenter
+                text: root.licenseText
+                color: Qt.darker(root.contentForeground, 1.5)
+                font.family: root.contentFontFamily
+                font.pixelSize: Style.font.caption
+                font.letterSpacing: 1
               }
 
-              // Ask Agent Button
-              Rectangle {
-                id: agentButton
-                width: agentLabel.implicitWidth + Style.space(16)
-                height: agentLabel.implicitHeight + Style.space(8)
-                radius: Math.min(4, Style.cornerRadius)
-                color: agentArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
+              Row {
+                id: buttonsRow
+                anchors.right: parent.right
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: Style.space(8)
 
-                Text {
-                  id: agentLabel
-                  anchors.centerIn: parent
-                  text: "ASK"
-                  color: agentArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
-                  font.family: root.contentFontFamily
-                  font.pixelSize: Style.font.caption
-                  font.letterSpacing: 1
+                // Copy Button
+                Rectangle {
+                  id: copyButton
+                  width: copyLabel.implicitWidth + Style.space(16)
+                  height: copyLabel.implicitHeight + Style.space(8)
+                  radius: Math.min(4, Style.cornerRadius)
+                  color: copyArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
+
+                  Text {
+                    id: copyLabel
+                    anchors.centerIn: parent
+                    text: "COPY"
+                    color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
+                    font.family: root.contentFontFamily
+                    font.pixelSize: Style.font.caption
+                    font.letterSpacing: 1
+                  }
+
+                  MouseArea {
+                    id: copyArea
+                    anchors.fill: parent
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: root.copyVerse()
+                  }
                 }
 
-                MouseArea {
-                  id: agentArea
-                  anchors.fill: parent
-                  hoverEnabled: true
-                  cursorShape: Qt.PointingHandCursor
-                  onClicked: root.askAgent()
-                }
+                // Ask Agent Button
+                Rectangle {
+                  id: agentButton
+                  width: agentLabel.implicitWidth + Style.space(16)
+                  height: agentLabel.implicitHeight + Style.space(8)
+                  radius: Math.min(4, Style.cornerRadius)
+                  color: agentArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
 
-                PanelToolTip {
-                  visible: agentArea.containsMouse
-                  text: "Ask your AI agent to explain this verse"
-                  fontFamily: root.contentFontFamily
+                  Text {
+                    id: agentLabel
+                    anchors.centerIn: parent
+                    text: "ASK"
+                    color: agentArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
+                    font.family: root.contentFontFamily
+                    font.pixelSize: Style.font.caption
+                    font.letterSpacing: 1
+                  }
+
+                  MouseArea {
+                    id: agentArea
+                    anchors.fill: parent
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: root.askAgent()
+                  }
+
+                  PanelToolTip {
+                    visible: agentArea.containsMouse
+                    text: "Ask your AI agent to explain this verse"
+                    fontFamily: root.contentFontFamily
+                  }
                 }
+              }
+            }
+
+            Item {
+              width: parent.width
+              height: Math.max(attributionHint.height, versionHint.height)
+
+              Text {
+                id: attributionHint
+                anchors.left: parent.left
+                anchors.right: versionHint.visible ? versionHint.left : parent.right
+                anchors.rightMargin: versionHint.visible ? Style.space(8) : 0
+                anchors.verticalCenter: parent.verticalCenter
+                text: root.attributionText
+                color: Qt.darker(root.contentForeground, 1.5)
+                font.family: root.contentFontFamily
+                font.pixelSize: Style.font.caption
+                font.letterSpacing: 1
+                wrapMode: Text.WordWrap
+              }
+
+              Text {
+                id: versionHint
+                anchors.right: parent.right
+                anchors.bottom: parent.bottom
+                visible: root.versionText !== ""
+                text: root.versionText
+                color: Qt.darker(root.contentForeground, 1.5)
+                font.family: root.contentFontFamily
+                font.pixelSize: Style.font.caption
+                font.letterSpacing: 1
               }
             }
           }
