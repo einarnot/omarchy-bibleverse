@@ -1,0 +1,145 @@
+{
+  "removed": {
+    "incomplete_sentence": 597,
+    "name_list": 2,
+    "genealogy": 205,
+    "historical_needs_context": 797,
+    "lowercase_continuation": 791,
+    "no_complete_thought": 72,
+    "unanchored_pronoun": 549,
+    "ritual_or_measure": 86,
+    "prepositional_fragment": 92,
+    "narrative_start": 191,
+    "historical_narrative": 51,
+    "not_teaching_standalone": 447,
+    "greeting": 11,
+    "dialogue_fragment": 15,
+    "prophet_needs_context": 412,
+    "torah_needs_context": 601,
+    "psalm_header_orphan": 2,
+    "gospel_needs_context": 364
+  },
+  "examples": {
+    "incomplete_sentence": [
+      "1 Chr 1:1: Adam, Seth, Enosh,",
+      "1 Chr 3:1: Now these were the sons of David, who were born to him in Hebron: the firstborn, Amnon, of Ahinoam the Jezreelitess; the",
+      "1 Chr 6:4: Eleazar became the father of Phinehas, Phinehas became the father of Abishua,",
+      "1 Chr 7:28: Their possessions and settlements were Bethel and its towns, and eastward Naaran, and westward Gezer with its towns; She",
+      "1 Chr 10:13: So Saul died for his trespass which he committed against the LORD, because of the LORD's word, which he didn't keep, and"
+    ],
+    "name_list": [
+      "1 Chr 1:4: Noah, Shem, Ham, and Japheth.",
+      "Neh 12:25: Mattaniah, Bakbukiah, Obadiah, Meshullam, Talmon, and Akkub were gatekeepers keeping the watch at the storehouses of the"
+    ],
+    "genealogy": [
+      "1 Chr 1:5: The sons of Japheth: Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
+      "1 Chr 1:7: The sons of Javan: Elishah, Tarshish, Kittim, and Rodanim.",
+      "1 Chr 1:8: The sons of Ham: Cush, Mizraim, Put, and Canaan.",
+      "1 Chr 1:10: Cush became the father of Nimrod. He began to be a mighty one on the earth.",
+      "1 Chr 4:15: The sons of Caleb the son of Jephunneh: Iru, Elah, and Naam. The son of Elah: Kenaz."
+    ],
+    "historical_needs_context": [
+      "1 Chr 2:55: The families of scribes who lived at Jabez: the Tirathites, the Shimeathites, and the Sucathites. These are the Kenites ",
+      "1 Chr 4:5: Ashhur the father of Tekoa had two wives, Helah and Naarah.",
+      "1 Chr 4:9: Jabez was more honorable than his brothers. His mother named him Jabez, saying, \"Because I bore him with sorrow.\"",
+      "1 Chr 5:23: The children of the half-tribe of Manasseh lived in the land. They increased from Bashan to Baal Hermon, Senir, and Moun",
+      "1 Chr 5:26: So the God of Israel stirred up the spirit of Pul king of Assyria, and the spirit of Tilgath Pilneser king of Assyria, a"
+    ],
+    "lowercase_continuation": [
+      "1 Chr 3:5: and these were born to him in Jerusalem: Shimea, Shobab, Nathan, and Solomon, four, by Bathshua the daughter of Ammiel;",
+      "1 Chr 10:14: and didn't inquire of the LORD. Therefore he killed him, and turned the kingdom over to David the son of Jesse.",
+      "1 Chr 11:19: and said, \"My God forbid me, that I should do this! Shall I drink the blood of these men who have put their lives in jeo",
+      "1 Chr 23:5: four thousand were doorkeepers, and four thousand praised the LORD with the instruments which I made for giving praise.\"",
+      "1 Chr 23:29: for the show bread also, and for the fine flour for a meal offering, whether of unleavened wafers, or of that which is b"
+    ],
+    "no_complete_thought": [
+      "1 Chr 5:2: For Judah prevailed above his brothers, and from him came the prince; but the birthright was Joseph's)—",
+      "1 Cor 1:16: (I also baptized the household of Stephanas; besides them, I don't know whether I baptized any other.)",
+      "1 Cor 7:10: But to the married I command—not I, but the Lord—that the wife not leave her husband",
+      "1 Kgs 14:11: The dogs will eat whoever belongs to Jeroboam who dies in the city; and the birds of the sky will eat whoever dies in th",
+      "1 Pet 1:13: Therefore prepare your minds for action. Be sober, and set your hope fully on the grace that will be brought to you at t"
+    ],
+    "unanchored_pronoun": [
+      "1 Chr 5:16: They lived in Gilead in Bashan and in its towns, and in all the pasture lands of Sharon as far as their borders.",
+      "1 Chr 7:24: His daughter was Sheerah, who built Beth Horon the lower and the upper, and Uzzen Sheerah.",
+      "1 Chr 12:2: They were armed with bows, and could use both the right hand and the left in slinging stones and in shooting arrows from",
+      "1 Cor 2:15: But he who is spiritual discerns all things, and he himself is to be judged by no one.",
+      "1 Cor 5:1: It is actually reported that there is sexual immorality among you, and such sexual immorality as is not even named among"
+    ],
+    "ritual_or_measure": [
+      "1 Chr 6:32: They ministered with song before the tabernacle of the Tent of Meeting until Solomon had built the LORD's house in Jerus",
+      "1 Kgs 6:2: The house which King Solomon built for the LORD had a length of sixty cubits, and its width twenty, and its height thirt",
+      "1 Kgs 6:6: The lowest floor was five cubits wide, and the middle was six cubits wide, and the third was seven cubits wide; for on t",
+      "1 Kgs 7:19: The capitals that were on the top of the pillars in the porch were of lily work, four cubits.",
+      "1 Kgs 7:23: He made the molten sea ten cubits from brim to brim, round in shape. Its height was five cubits; and a line of thirty cu"
+    ],
+    "prepositional_fragment": [
+      "1 Chr 12:32: Of the children of Issachar, men who had understanding of the times, to know what Israel ought to do, their heads were t",
+      "1 Chr 27:28: Over the olive trees and the sycamore trees that were in the lowland was Baal Hanan the Gederite. Over the cellars of oi",
+      "1 Chr 27:29: Over the herds that fed in Sharon was Shitrai the Sharonite. Over the herds that were in the valleys was Shaphat the son",
+      "1 Cor 9:20: To the Jews I became as a Jew, that I might gain Jews; to those who are under the law, as under the law, that I might ga",
+      "1 Cor 9:22: To the weak I became as weak, that I might gain the weak. I have become all things to all men, that I may by all means s"
+    ],
+    "narrative_start": [
+      "1 Chr 16:33: Then the trees of the forest will sing for joy before the LORD, for he comes to judge the earth.",
+      "1 Chr 18:6: Then David put garrisons in Syria of Damascus; and the Syrians became servants to David and brought tribute. The LORD ga",
+      "1 Chr 22:13: Then you will prosper, if you observe to do the statutes and the ordinances which the LORD gave Moses concerning Israel.",
+      "1 Cor 8:11: And through your knowledge, he who is weak perishes, the brother for whose sake Christ died.",
+      "1 Cor 15:24: Then the end comes, when he will deliver up the Kingdom to God the Father, when he will have abolished all rule and all "
+    ],
+    "historical_narrative": [
+      "1 Chr 18:14: David reigned over all Israel; and he executed justice and righteousness for all his people.",
+      "1 Kgs 2:10: David slept with his fathers, and was buried in David's city.",
+      "1 Kgs 3:15: Solomon awoke; and behold, it was a dream. Then he came to Jerusalem and stood before the ark of the LORD's covenant, an",
+      "1 Kgs 10:2: She came to Jerusalem with a very great caravan, with camels that bore spices, very much gold, and precious stones; and ",
+      "1 Kgs 14:17: Jeroboam's wife arose and departed, and came to Tirzah. As she came to the threshold of the house, the child died."
+    ],
+    "not_teaching_standalone": [
+      "1 Cor 2:3: I was with you in weakness, in fear, and in much trembling.",
+      "1 Cor 3:4: For when one says, \"I follow Paul,\" and another, \"I follow Apollos,\" aren't you fleshly?",
+      "1 Cor 4:6: Now these things, brothers, I have in a figure transferred to myself and Apollos for your sakes, that in us you might le",
+      "1 Cor 4:7: For who makes you different? And what do you have that you didn't receive? But if you did receive it, why do you boast a",
+      "1 Cor 4:16: I beg you therefore, be imitators of me."
+    ],
+    "greeting": [
+      "1 Cor 16:19: The assemblies of Asia greet you. Aquila and Priscilla greet you warmly in the Lord, together with the assembly that is ",
+      "1 Cor 16:20: All the brothers greet you. Greet one another with a holy kiss.",
+      "1 Pet 5:14: Greet one another with a kiss of love. Peace be to all of you who are in Christ Jesus. Amen.",
+      "1 Thess 5:26: Greet all the brothers with a holy kiss.",
+      "2 Cor 13:12: Greet one another with a holy kiss."
+    ],
+    "dialogue_fragment": [
+      "2 Chr 19:9: He commanded them, saying, \"You shall do this in the fear of the LORD, faithfully, and with a perfect heart.",
+      "Acts 1:7: He said to them, \"It isn't for you to know times or seasons which the Father has set within his own authority.",
+      "Acts 10:28: He said to them, \"You yourselves know how it is an unlawful thing for a man who is a Jew to join himself or come to one ",
+      "Acts 10:42: He commanded us to preach to the people and to testify that this is he who is appointed by God as the Judge of the livin",
+      "Acts 10:48: He commanded them to be baptized in the name of Jesus Christ. Then they asked him to stay some days."
+    ],
+    "prophet_needs_context": [
+      "Amos 3:3: Do two walk together, unless they have agreed?",
+      "Amos 4:7: \"I also have withheld the rain from you, when there were yet three months to the harvest; and I caused it to rain on one",
+      "Amos 5:11: Therefore, because you trample on the poor and take taxes from him of wheat, you have built houses of cut stone, but you",
+      "Amos 5:12: For I know how many are your offenses, and how great are your sins— you who afflict the just, who take a bribe, and who ",
+      "Amos 5:13: Therefore a prudent person keeps silent in such a time, for it is an evil time."
+    ],
+    "torah_needs_context": [
+      "Deut 1:7: Turn, and take your journey, and go to the hill country of the Amorites and to all the places near there: in the Arabah,",
+      "Deut 1:11: May the LORD, the God of your fathers, make you a thousand times as many as you are and bless you, as he has promised yo",
+      "Deut 1:13: Take wise men of understanding who are respected among your tribes, and I will make them heads over you.\"",
+      "Deut 1:19: We traveled from Horeb and went through all that great and terrible wilderness which you saw, by the way to the hill cou",
+      "Deut 1:39: Moreover your little ones, whom you said would be captured or killed, your children, who today have no knowledge of good"
+    ],
+    "psalm_header_orphan": [
+      "Heb 9:22: According to the law, nearly everything is cleansed with blood, and apart from shedding of blood there is no remission.",
+      "Job 4:8: According to what I have seen, those who plow iniquity and sow trouble, reap the same."
+    ],
+    "gospel_needs_context": [
+      "Luke 1:10: The whole multitude of the people were praying outside at the hour of incense.",
+      "Luke 1:13: But the angel said to him, \"Don't be afraid, Zacharias, because your request has been heard. Your wife, Elizabeth, will ",
+      "Luke 1:14: You will have joy and gladness, and many will rejoice at his birth.",
+      "Luke 1:23: When the days of his service were fulfilled, he departed to his house.",
+      "Luke 1:34: Mary said to the angel, \"How can this be, seeing I am a virgin?\""
+    ]
+  },
+  "kept": 2351
+}
