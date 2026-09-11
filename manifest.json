@@ -5,7 +5,7 @@
   "version": "0.3.0",
   "author": "Einar Notland",
   "license": "MIT",
-  "description": "A daily World English Bible verse on the Omarchy bar, with a details panel.",
+  "description": "A daily World English Bible verse on the Omarchy bar, with a details panel. And button to quickly ask agent to explain the verse",
   "kinds": [
     "bar-widget"
   ],
