@@ -73,10 +73,10 @@ Panel {
                  "\"" + verse.text + "\"\n\n" +
                  "What are the key themes, historical context, and scholarly interpretations of this verse?"
 
-    // Send to the default agent via IPC
-    Quickshell.execDetached(["bash", "-c", "echo " + Util.shellQuote(prompt) + " | omarchy-agent"])
+    // omarchy-agent ignores stdin; prompts must go through omarchy-agent-prompt
+    // (or `omarchy agent prompt …`), which passes --prompt to the launcher.
+    Quickshell.execDetached(["omarchy-agent-prompt", prompt])
 
-    // Show notification
     Quickshell.execDetached(["omarchy-notification-send", "-g", "󰚀", "Sent to agent: " + verse.reference])
   }
 

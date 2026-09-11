@@ -22,6 +22,7 @@ omarchy bar put einarnot.bibleverse --section center
 - Right click copies `"text" — Reference (WEB)`
 - Middle click reloads the verse list
 - In the panel, press `c` or Enter, or click **COPY**
+- In the panel, press `a` or click **ASK** to open the default agent with an interpretation prompt
 - Escape closes the panel
 
 The bar shows a short reference (`John 3:16`). To show the full book name:
