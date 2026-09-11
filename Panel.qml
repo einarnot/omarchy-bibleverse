@@ -189,6 +189,33 @@ Panel {
               anchors.verticalCenter: parent.verticalCenter
               spacing: Style.space(8)
 
+              // Copy Button
+              Rectangle {
+                id: copyButton
+                width: copyLabel.implicitWidth + Style.space(16)
+                height: copyLabel.implicitHeight + Style.space(8)
+                radius: Math.min(4, Style.cornerRadius)
+                color: copyArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
+
+                Text {
+                  id: copyLabel
+                  anchors.centerIn: parent
+                  text: "COPY"
+                  color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
+                  font.family: root.contentFontFamily
+                  font.pixelSize: Style.font.caption
+                  font.letterSpacing: 1
+                }
+
+                MouseArea {
+                  id: copyArea
+                  anchors.fill: parent
+                  hoverEnabled: true
+                  cursorShape: Qt.PointingHandCursor
+                  onClicked: root.copyVerse()
+                }
+              }
+
               // Ask Agent Button
               Rectangle {
                 id: agentButton
@@ -214,32 +241,11 @@ Panel {
                   cursorShape: Qt.PointingHandCursor
                   onClicked: root.askAgent()
                 }
-              }
 
-              // Copy Button
-              Rectangle {
-                id: copyButton
-                width: copyLabel.implicitWidth + Style.space(16)
-                height: copyLabel.implicitHeight + Style.space(8)
-                radius: Math.min(4, Style.cornerRadius)
-                color: copyArea.containsMouse ? Style.hoverFillFor(root.contentForeground, Color.accent) : "transparent"
-
-                Text {
-                  id: copyLabel
-                  anchors.centerIn: parent
-                  text: "COPY"
-                  color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
-                  font.family: root.contentFontFamily
-                  font.pixelSize: Style.font.caption
-                  font.letterSpacing: 1
-                }
-
-                MouseArea {
-                  id: copyArea
-                  anchors.fill: parent
-                  hoverEnabled: true
-                  cursorShape: Qt.PointingHandCursor
-                  onClicked: root.copyVerse()
+                PanelToolTip {
+                  visible: agentArea.containsMouse
+                  text: "Ask your AI agent to explain this verse"
+                  fontFamily: root.contentFontFamily
                 }
               }
             }
