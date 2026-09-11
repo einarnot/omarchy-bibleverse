@@ -77,7 +77,7 @@ Panel {
     // (or `omarchy agent prompt …`), which passes --prompt to the launcher.
     Quickshell.execDetached(["omarchy-agent-prompt", prompt])
 
-    Quickshell.execDetached(["omarchy-notification-send", "-g", "󰚀", "Sent to agent: " + verse.reference])
+    Quickshell.execDetached(["omarchy-notification-send", "-g", "🐟", "Sent to agent: " + verse.reference])
   }
 
   KeyboardPanel {
