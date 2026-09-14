@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "einarnot.bibleverse",
   "name": "Daily Bible Verse",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "author": "Einar Notland",
   "license": "MIT",
-  "description": "A daily World English Bible verse on the Omarchy bar, with a details panel. And button to quickly ask agent to explain the verse",
+  "description": "A daily Bible verse on the Omarchy bar in 24 languages (Open Translation Bible; English fallback), with a details panel. And button to quickly ask agent to explain the verse",
   "kinds": [
     "bar-widget"
   ],

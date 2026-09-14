@@ -9,20 +9,33 @@ BarWidget {
   id: root
   moduleName: "einarnot.bibleverse"
 
-  property var verses: []
+  property var enVerses: []
+  property var langVerses: []
+  property var languageMeta: []
   property string pluginVersion: ""
   property date today: clock.date
   readonly property string userId: Quickshell.env("USER") || Quickshell.env("USERNAME") || "local"
   readonly property string resolvedVersion: Model.versionFromRegistry(root.bar, root.moduleName) || pluginVersion
-  readonly property var verse: Model.verseForDate(verses, today, userId)
+  // Language: explicit `language` bar setting wins ("auto" follows the system locale).
+  // Anything unsupported falls back to English (see Model.resolveLanguage).
+  readonly property string systemLocale: Qt.locale().name || Quickshell.env("LANG") || Quickshell.env("LANGUAGE") || "en-GB"
+  readonly property string configuredLanguage: setting("language", "auto")
+  readonly property string requestedLanguage: configuredLanguage === "auto" ? systemLocale : configuredLanguage
+  readonly property string language: Model.resolveLanguage(requestedLanguage)
+  readonly property string versesFileName: Model.versesFileForLanguage(language)
+  readonly property var activeVerses: Model.selectVerses(enVerses, langVerses, language)
+  readonly property string activeLanguage: Model.activeLanguage(enVerses, langVerses, language)
+  readonly property var verse: Model.verseForDate(activeVerses, today, userId)
   readonly property string configuredFormat: setting("format", "short")
   readonly property string displayText: Model.barLabel(verse, configuredFormat) || "Bible"
   readonly property var verticalLines: Model.verticalLines(displayText)
-  readonly property string copyText: Model.copyPayload(verse)
+  readonly property string copyText: Model.copyPayload(verse, activeLanguage, languageMeta)
 
   function refresh() {
     today = new Date()
-    versesFile.reload()
+    versesFileEn.reload()
+    versesFileLang.reload()
+    languagesFile.reload()
     if (panelLoader.item && panelLoader.item.refresh) panelLoader.item.refresh()
   }
 
@@ -30,6 +43,17 @@ BarWidget {
     if (!copyText) return
     Quickshell.execDetached(["bash", "-c", "printf %s " + Util.shellQuote(copyText) + " | wl-copy"])
     Quickshell.execDetached(["omarchy-notification-send", "-g", "󰂺", "Copied " + (verse ? verse.reference : "verse")])
+  }
+
+  function persistLanguage(value) {
+    var nextSettings = {}
+    var currentSettings = root.settings || {}
+    for (var key in currentSettings) nextSettings[key] = currentSettings[key]
+    nextSettings.language = String(value || "auto")
+    root.settings = nextSettings
+    if (root.bar && root.bar.shell && typeof root.bar.shell.updateEntryInline === "function")
+      root.bar.shell.updateEntryInline(root.moduleName, nextSettings)
+    return true
   }
 
   readonly property bool opened: panelLoader.item ? panelLoader.item.opened === true : false
@@ -61,7 +85,13 @@ BarWidget {
     if ("settings" in target) target.settings = root.settings
     if ("anchorItem" in target) target.anchorItem = button
     if ("hostWidget" in target) target.hostWidget = root
-    if ("verses" in target) target.verses = root.verses
+    if ("enVerses" in target) target.enVerses = root.enVerses
+    if ("langVerses" in target) target.langVerses = root.langVerses
+    if ("languageMeta" in target) target.languageMeta = root.languageMeta
+    if ("languageSetting" in target) target.languageSetting = root.configuredLanguage
+    if ("persistLanguage" in target) target.persistLanguage = root.persistLanguage
+    if ("verses" in target) target.verses = root.activeVerses
+    if ("language" in target) target.language = root.language
     if ("today" in target) target.today = root.today
     if ("userId" in target) target.userId = root.userId
     if ("pluginVersion" in target) target.pluginVersion = root.resolvedVersion
@@ -72,7 +102,17 @@ BarWidget {
 
   onBarChanged: injectPanel()
   onSettingsChanged: injectPanel()
-  onVersesChanged: injectPanel()
+  onEnVersesChanged: injectPanel()
+  onLangVersesChanged: injectPanel()
+  onLanguageMetaChanged: injectPanel()
+  onActiveVersesChanged: injectPanel()
+  onLanguageChanged: {
+    // Drop the previous language until its file loads, so the widget
+    // falls back to English instead of showing a stale verse.
+    root.langVerses = []
+    versesFileLang.reload()
+    injectPanel()
+  }
   onTodayChanged: injectPanel()
   onPluginVersionChanged: injectPanel()
   onResolvedVersionChanged: injectPanel()
@@ -87,13 +127,33 @@ BarWidget {
   }
 
   FileView {
-    id: versesFile
-    path: Model.fileUrlToPath(Qt.resolvedUrl("verses.json"))
+    id: versesFileEn
+    path: Model.fileUrlToPath(Qt.resolvedUrl("verses/en-GB.json"))
     watchChanges: true
     printErrors: false
     onFileChanged: reload()
-    onLoaded: root.verses = Model.parseVerses(text())
-    onLoadFailed: root.verses = []
+    onLoaded: root.enVerses = Model.parseVerses(text())
+    onLoadFailed: root.enVerses = []
+  }
+
+  FileView {
+    id: versesFileLang
+    path: Model.fileUrlToPath(Qt.resolvedUrl(root.versesFileName))
+    watchChanges: true
+    printErrors: false
+    onFileChanged: reload()
+    onLoaded: root.langVerses = Model.parseVerses(text())
+    onLoadFailed: root.langVerses = []
+  }
+
+  FileView {
+    id: languagesFile
+    path: Model.fileUrlToPath(Qt.resolvedUrl("verses/languages.json"))
+    watchChanges: true
+    printErrors: false
+    onFileChanged: reload()
+    onLoaded: root.languageMeta = Model.parseVerses(text())
+    onLoadFailed: root.languageMeta = []
   }
 
   FileView {
@@ -107,6 +167,9 @@ BarWidget {
   }
 
   Component.onCompleted: Qt.callLater(function() {
+    versesFileEn.reload()
+    versesFileLang.reload()
+    languagesFile.reload()
     manifestFile.reload()
     root.injectPanel()
   })

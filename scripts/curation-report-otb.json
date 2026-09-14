@@ -1,0 +1,143 @@
+{
+  "removed": {
+    "torah_needs_context": 612,
+    "incomplete_sentence": 661,
+    "lowercase_continuation": 598,
+    "narrative_start": 449,
+    "prepositional_fragment": 133,
+    "unanchored_pronoun": 459,
+    "historical_narrative": 36,
+    "genealogy": 213,
+    "ritual_or_measure": 92,
+    "no_complete_thought": 111,
+    "dialogue_fragment": 12,
+    "historical_needs_context": 855,
+    "name_list": 6,
+    "not_teaching_standalone": 510,
+    "prophet_needs_context": 517,
+    "gospel_needs_context": 527,
+    "greeting": 6
+  },
+  "examples": {
+    "torah_needs_context": [
+      "Gen 1:2: Now the earth was a formless void, and darkness covered the surface of the deep, while the Spirit of God was hovering ov",
+      "Gen 1:12: The land brought forth vegetation: plants bearing seed according to their kinds and trees bearing fruit with seed in it ",
+      "Gen 1:16: God fashioned two great lights—the greater light to govern the day and the lesser light to govern the night. He also mad",
+      "Gen 1:21: So God created the great sea creatures and every living thing with which the waters teem and that moves about in it, acc",
+      "Gen 1:25: God made the wild animals according to their kinds, the livestock according to their kinds, and the creatures that move "
+    ],
+    "incomplete_sentence": [
+      "Gen 1:14: And God said, \"Let there be lights in the expanse of the sky to separate the day from the night, and let them serve as s",
+      "Gen 2:16: And the Lord God commanded the man, \"You may freely eat from any tree in the garden;",
+      "Gen 7:2: Take with you seven pairs of every kind of clean animal, a male and its female; and one pair of every kind of unclean an",
+      "Gen 9:9: \"Look, as I establish My covenant with you and your descendants after you,",
+      "Gen 9:12: And God said, \"This is the sign of the covenant I am making between Me and you and every living creature with you, for a"
+    ],
+    "lowercase_continuation": [
+      "Gen 1:15: and let them be lights in the expanse of the sky to give light on the earth.\" And it was so.",
+      "Gen 2:17: but you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will surely die.\"",
+      "Gen 3:3: but God did say, 'You must not eat fruit from the tree that is in the centre of the garden, and you must not touch it, o",
+      "Gen 6:2: the sons of God saw that the daughters of mankind were beautiful, so they took as wives any they chose.",
+      "Gen 7:9: came to Noah and entered the ark, male and female, as God had commanded Noah."
+    ],
+    "narrative_start": [
+      "Gen 1:29: Then God said, \"I provide you with every seed-bearing plant on the face of the whole earth and every tree that has fruit",
+      "Gen 1:30: And to all the beasts of the earth and all the birds in the sky and all the creatures that move along the ground—everyth",
+      "Gen 2:3: Then God blessed the seventh day and made it holy, because on it He rested from all the work of creation He had accompli",
+      "Gen 2:7: Then the Lord God shaped a man from the dust of the ground and breathed into his nostrils the breath of life, and the ma",
+      "Gen 2:22: Then the Lord God fashioned a woman from the rib He had taken out of the man, and brought her to the man."
+    ],
+    "prepositional_fragment": [
+      "Gen 2:2: By the seventh day, God had completed His work which He had been doing; so He rested on the seventh day from all His wor",
+      "Gen 3:16: To the woman He said, \"I will greatly increase your pain in childbirth; with painful labour you will give birth to child",
+      "Gen 3:17: To Adam He said, \"Because you listened to your wife and ate fruit from the tree about which I commanded you, 'You shall ",
+      "Gen 3:19: By the sweat of your brow you will eat your food until you return to the ground, since from it you were taken; for you a",
+      "Gen 10:5: From these, the maritime peoples spread into their territories by their clans and languages, each within their nations."
+    ],
+    "unanchored_pronoun": [
+      "Gen 3:10: He replied, \"I heard you in the garden, and I was afraid because I was naked; so I hid myself.\"",
+      "Gen 4:21: His brother's name was Jubal; his line became those who play stringed instruments and pipes.",
+      "Gen 5:2: He created them male and female, and blessed them. He named them \"Mankind\" on the day they were created.",
+      "Gen 8:7: He sent out a raven, and it flew back and forth until the waters had dried up from the earth.",
+      "Gen 8:10: He waited another seven days and sent the dove out from the ark once more."
+    ],
+    "historical_narrative": [
+      "Gen 4:17: Cain was intimate with his wife, and she conceived and gave birth to Enoch. Cain was building a city, and he named it af",
+      "Gen 19:37: The firstborn bore a son and named him Moab; he is the father of the Moabites to this day.",
+      "Gen 21:2: Sarah conceived and bore a son to Abraham in his old age, at the time God had specified to him.",
+      "Gen 48:7: As I was returning from Paddan, Rachel died in the land of Canaan, to my sorrow, while we were still on the journey, a l",
+      "Exod 15:27: Then they came to Elim, where there were twelve springs and seventy palm trees, and they camped there by the waters."
+    ],
+    "genealogy": [
+      "Gen 6:4: The Nephilim were on the earth in those days, and also afterwards, when the sons of God went to the daughters of humans ",
+      "Gen 9:18: The sons of Noah who emerged from the ark were Shem, Ham, and Japheth. (Ham was the father of Canaan.)",
+      "Gen 10:1: These are the records of the generations of Noah's sons: Shem, Ham, and Japheth; and sons were born to them after the fl",
+      "Gen 10:8: Cush became the father of Nimrod, who grew to be a mighty warrior on the earth.",
+      "Gen 11:29: Abram and Nahor took wives for themselves. Abram's wife was named Sarai, and Nahor's wife was named Milcah, the daughter"
+    ],
+    "ritual_or_measure": [
+      "Gen 6:15: This is how you are to construct it: the ark is to be three hundred cubits long, fifty cubits wide, and thirty cubits hi",
+      "Gen 22:2: God said, \"Take your son, your only son Isaac, whom you love, and go to the land of Moriah. Offer him there as a burnt o",
+      "Gen 22:8: Abraham said, \"God will provide the lamb for the burnt offering, my son.\" So the two of them continued on together.",
+      "Gen 22:13: Abraham looked up and saw a ram caught by its horns in a thicket. He went and took the ram and offered it as a burnt off",
+      "Gen 24:22: When the camels had finished drinking, the man took out a gold nose ring weighing a half-shekel, and two gold bracelets "
+    ],
+    "no_complete_thought": [
+      "Gen 15:18: On that day, the Lord made a covenant with Abram, saying, \"To your descendants I have given this land, from the river of",
+      "Gen 32:12: Yet you have promised, 'I will surely make you prosper and make your descendants as numerous as the sand of the sea, whi",
+      "Exod 19:10: The Lord said to Moses, \"Go to the people and consecrate them today and tomorrow. Have them wash their garments",
+      "Exod 21:5: But if the servant declares, 'I have affection for my master, my wife, and my children; I will not leave as a free man,'",
+      "Exod 31:17: It is a sign between me and the Israelites forever, for in six days the Lord made the heavens and the earth, and on the "
+    ],
+    "dialogue_fragment": [
+      "Gen 18:3: He said, \"My Lord, if I have found favour in your sight, please do not pass your servant by.",
+      "Num 12:6: He said, \"Hear my words: If there is a prophet among you, I, the Lord, will reveal myself to them in visions and speak t",
+      "Deut 33:2: He said: \"The Lord came from Sinai and dawned upon them from Seir; he shone forth from Mount Paran. He came with myriads",
+      "Ruth 3:10: He said, \"May the Lord bless you, my daughter. This last kindness is greater than the first, as you have not pursued you",
+      "Matt 15:13: He replied, \"Every plant that my heavenly Father has not planted will be uprooted."
+    ],
+    "historical_needs_context": [
+      "Josh 1:3: Every place where the sole of your foot treads, I have granted to you, just as I promised to Moses.",
+      "Josh 1:4: Your territory will extend from the wilderness and Lebanon to the great river, the Euphrates—all the land of the Hittite",
+      "Josh 1:5: No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will n",
+      "Josh 1:6: Be strong and courageous, for you shall lead these people to inherit the land I swore to their ancestors to give them.",
+      "Josh 1:7: Only be strong and very courageous; be careful to act according to all the law that my servant Moses commanded you; do n"
+    ],
+    "name_list": [
+      "Neh 12:25: Mattaniah, Bakbukiah, Obadiah, Meshullam, Talmon, and Akkub were gatekeepers who kept watch at the storerooms of the gat",
+      "Ps 25:22: Deliver Israel, God, From all his troubles.",
+      "Ps 31:1: In You, Lord, I have taken refuge; Let me never be put to shame; In Your righteousness rescue me.",
+      "Ps 119:89: Forever, Lord, Your word stands in heaven.",
+      "Ezek 30:5: Cush, Put, Lud, all Arabia, Libya, and the people of the covenant land will fall by the sword along with Egypt."
+    ],
+    "not_teaching_standalone": [
+      "Ps 2:1: Why do the nations rage, And the peoples devise futile plans?",
+      "Ps 2:6: \"Yet I have set My King On Zion, My sacred hill.\"",
+      "Ps 3:2: Many are saying about me, \"There is no deliverance for him through God.\" Selah",
+      "Ps 5:5: The boastful will not stand before Your eyes; You despise all who commit injustice.",
+      "Ps 5:9: For there is nothing reliable in their speech; Their inner being is destruction itself. Their throat is an open grave; T"
+    ],
+    "prophet_needs_context": [
+      "Isa 1:5: Why should you be stricken again, as you continue in your rebellion? The whole head is sick, and the whole heart faint.",
+      "Isa 1:13: Bring no more meaningless offerings; incense is an abomination to Me. New moons, Sabbaths, and convocations—I cannot end",
+      "Isa 1:15: When you spread out your hands in prayer, I will hide My eyes from you; even though you make many prayers, I will not li",
+      "Isa 1:17: Learn to do good; seek justice, correct the oppressor; defend the fatherless, plead for the widow.",
+      "Isa 1:23: Your rulers are rebels and companions of thieves; everyone loves bribes and pursues rewards. They do not defend the fath"
+    ],
+    "gospel_needs_context": [
+      "Matt 2:11: Upon entering the house, they saw the child with His mother Mary, and they bowed down and worshipped Him. Then they open",
+      "Matt 2:13: After they had left, an angel of the Lord appeared to Joseph in a dream, saying, \"Get up, take the child and His mother,",
+      "Matt 2:16: When Herod realised that he had been deceived by the magi, he was furious, and he sent orders to kill all the boys in Be",
+      "Matt 3:4: John wore clothing made of camel's hair and had a leather belt around his waist. His diet consisted of locusts and wild ",
+      "Matt 3:8: Produce fruit in accordance with repentance."
+    ],
+    "greeting": [
+      "Rom 16:5: Greet also the church that meets at their house. Greet my dear friend Epenetus, who was the first convert to Christ in A",
+      "Rom 16:7: Greet Andronicus and Junia, my fellow Jews and fellow prisoners; they are esteemed among the apostles and were in Christ",
+      "Rom 16:16: Greet one another with a sacred kiss. All the churches of Christ send their greetings.",
+      "1 Cor 16:19: The churches of Asia send you greetings. Aquila and Prisca warmly greet you in the Lord, along with the church that meet",
+      "2 Cor 13:12: Greet one another warmly with a holy kiss."
+    ]
+  },
+  "kept": 2896
+}

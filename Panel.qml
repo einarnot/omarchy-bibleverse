@@ -13,19 +13,49 @@ Panel {
   property var anchorItem: null
   property var hostWidget: null
   property var verses: []
+  property var enVerses: []
+  property var langVerses: []
+  property var languageMeta: []
+  property string language: "en-GB"
+  property string languageSetting: "auto"
+  property var persistLanguage: null
   property date today: new Date()
   property string userId: Quickshell.env("USER") || Quickshell.env("USERNAME") || "local"
   property string pluginVersion: ""
 
   readonly property var barIdentity: hostWidget || root
-  readonly property var verse: Model.verseForDate(verses, today, userId)
-  readonly property string copyText: Model.copyPayload(verse)
+  // Prefer the per-language lists; fall back to the legacy `verses` list as English.
+  readonly property var englishVerses: enVerses.length > 0 ? enVerses : verses
+  readonly property var activeVerses: Model.selectVerses(englishVerses, langVerses, language)
+  readonly property string activeLanguage: Model.activeLanguage(englishVerses, langVerses, language)
+  readonly property var verse: Model.verseForDate(activeVerses, today, userId)
+  readonly property string copyText: Model.copyPayload(verse, activeLanguage, languageMeta)
   readonly property color contentForeground: bar ? bar.barForeground : Color.foreground
   readonly property string contentFontFamily: bar ? bar.fontFamily : Style.font.family
-  readonly property string licenseText: "WEB · public domain"
-  readonly property string attributionText: "Refs CC BY 4.0 OpenBible.info"
+  readonly property string licenseText: Model.licenseText(activeLanguage, languageMeta)
+  readonly property string attributionText: Model.attributionText(activeLanguage)
   readonly property string resolvedVersion: Model.versionFromRegistry(root.bar, root.moduleName) || pluginVersion
   readonly property string versionText: Model.displayVersion(resolvedVersion)
+  readonly property var languageOptions: Model.languageOptions(languageMeta)
+  readonly property var languageTagOptions: {
+    var options = [{
+      value: "auto",
+      label: languageDropdown.popupOpen ? "sys" : root.language + " *"
+    }]
+    for (var i = 0; i < Model.SUPPORTED_LANGUAGES.length; i++) {
+      var code = Model.SUPPORTED_LANGUAGES[i]
+      options.push({ value: code, label: code })
+    }
+    return options
+  }
+  readonly property real languageDropdownWidth: languageTagMetrics.width + Style.space(60)
+
+  TextMetrics {
+    id: languageTagMetrics
+    font.family: root.contentFontFamily
+    font.pixelSize: Style.font.caption
+    text: "en-GB"
+  }
 
   function open() {
     refresh()
@@ -77,11 +107,9 @@ Panel {
   function askAgent() {
     if (!verse) return
 
-    // Construct the prompt with the verse text and request for interpretation
-    var prompt = "Please provide common and established interpretations and explanations of the following Bible verse:\n\n" +
-                 verse.reference + " (WEB):\n" +
-                 "\"" + verse.text + "\"\n\n" +
-                 "What are the key themes, historical context, and scholarly interpretations of this verse?"
+    // Localized interpretation prompt (English instruction, answer in the
+    // active language when it is not English).
+    var prompt = Model.askPrompt(verse, activeLanguage, languageMeta)
 
     // omarchy-agent ignores stdin; prompts must go through omarchy-agent-prompt
     // (or `omarchy agent prompt …`), which passes --prompt to the launcher.
@@ -104,12 +132,19 @@ Panel {
     PanelKeyCatcher {
       id: keyCatcher
       anchors.fill: parent
+      onMoveRequested: function(dx, dy) {
+        // PanelKeyCatcher treats lowercase "l" as a vi-style right move
+        // before forwarding it as text. The dropdown owns arrow keys once
+        // open; use this otherwise-unused move to open it from the panel.
+        if (dx === 1 && !languageDropdown.popupOpen) languageDropdown.open()
+      }
       onActivateRequested: root.copyVerse()
       onCloseRequested: root.close()
       onTabRequested: function(direction) { root.switchPanel(direction) }
       onTextKey: function(t) {
         if (t === "c" || t === "C") root.copyVerse()
         if (t === "a" || t === "A") root.askAgent()
+        if (t === "l" || t === "L") languageDropdown.open()
       }
 
       Flickable {
@@ -130,23 +165,47 @@ Panel {
             width: parent.width
             spacing: Style.space(4)
 
-            Text {
+            Item {
               width: parent.width
-              text: "VERSE OF THE DAY"
-              color: Qt.darker(root.contentForeground, 1.4)
-              font.family: root.contentFontFamily
-              font.pixelSize: Style.font.caption
-              font.letterSpacing: 1
+              height: Math.max(dailyVerseLabel.implicitHeight, dateLabel.implicitHeight, versionHint.implicitHeight)
+
+              Text {
+                id: dailyVerseLabel
+                text: Model.dailyVerseLabel(root.activeLanguage) + " · "
+                color: Qt.darker(root.contentForeground, 1.4)
+                font.family: root.contentFontFamily
+                font.pixelSize: Style.font.caption
+                font.letterSpacing: 1
+              }
+
+              Text {
+                id: dateLabel
+                anchors.left: dailyVerseLabel.right
+                anchors.leftMargin: Style.space(4)
+                anchors.right: versionHint.visible ? versionHint.left : parent.right
+                anchors.rightMargin: versionHint.visible ? Style.space(8) : 0
+                textFormat: Text.PlainText
+                text: Qt.locale(root.activeLanguage).toString(root.today, "d MMM yyyy")
+                color: Qt.darker(root.contentForeground, 1.4)
+                font.family: root.contentFontFamily
+                font.pixelSize: Style.font.bodySmall
+                anchors.verticalCenter: parent.verticalCenter
+                elide: Text.ElideRight
+              }
+
+              Text {
+                id: versionHint
+                anchors.right: parent.right
+                anchors.top: parent.top
+                visible: root.versionText !== ""
+                text: root.versionText
+                color: Qt.darker(root.contentForeground, 1.5)
+                font.family: root.contentFontFamily
+                font.pixelSize: Style.font.caption
+                font.letterSpacing: 1
+              }
             }
 
-            Text {
-              width: parent.width
-              textFormat: Text.PlainText
-              text: Qt.formatDate(root.today, "dddd, d MMMM yyyy")
-              color: Qt.darker(root.contentForeground, 1.4)
-              font.family: root.contentFontFamily
-              font.pixelSize: Style.font.bodySmall
-            }
           }
 
           Text {
@@ -214,7 +273,7 @@ Panel {
                   Text {
                     id: copyLabel
                     anchors.centerIn: parent
-                    text: "COPY"
+                    text: "[C]opy"
                     color: copyArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
                     font.family: root.contentFontFamily
                     font.pixelSize: Style.font.caption
@@ -241,7 +300,7 @@ Panel {
                   Text {
                     id: agentLabel
                     anchors.centerIn: parent
-                    text: "ASK"
+                    text: "[A]sk"
                     color: agentArea.containsMouse ? Style.hoverStateColor(root.contentForeground, Color.accent) : root.contentForeground
                     font.family: root.contentFontFamily
                     font.pixelSize: Style.font.caption
@@ -267,13 +326,13 @@ Panel {
 
             Item {
               width: parent.width
-              height: Math.max(attributionHint.height, versionHint.height)
+              height: Math.max(languageDropdown.implicitHeight, attributionHint.implicitHeight)
 
               Text {
                 id: attributionHint
                 anchors.left: parent.left
-                anchors.right: versionHint.visible ? versionHint.left : parent.right
-                anchors.rightMargin: versionHint.visible ? Style.space(8) : 0
+                anchors.right: languageControls.left
+                anchors.rightMargin: Style.space(8)
                 anchors.verticalCenter: parent.verticalCenter
                 text: root.attributionText
                 color: Qt.darker(root.contentForeground, 1.5)
@@ -283,16 +342,43 @@ Panel {
                 wrapMode: Text.WordWrap
               }
 
-              Text {
-                id: versionHint
+              Row {
+                id: languageControls
                 anchors.right: parent.right
-                anchors.bottom: parent.bottom
-                visible: root.versionText !== ""
-                text: root.versionText
-                color: Qt.darker(root.contentForeground, 1.5)
-                font.family: root.contentFontFamily
-                font.pixelSize: Style.font.caption
-                font.letterSpacing: 1
+                anchors.verticalCenter: parent.verticalCenter
+                spacing: Style.space(4)
+
+                Dropdown {
+                  id: languageDropdown
+                  width: root.languageDropdownWidth
+                  showLabel: false
+                  value: root.languageSetting
+                  options: root.languageTagOptions
+                  foreground: Qt.darker(root.contentForeground, 1.4)
+                  fontFamily: root.contentFontFamily
+                  rowHeight: Style.font.caption + Style.space(8)
+                  onChanged: function(value) {
+                    if (typeof root.persistLanguage === "function") root.persistLanguage(value)
+                  }
+                }
+
+                Text {
+                  id: languageShortcut
+                  text: "[L]"
+                  color: languageShortcutArea.containsMouse ? Color.accent : Qt.darker(root.contentForeground, 1.4)
+                  font.family: root.contentFontFamily
+                  font.pixelSize: Style.font.caption
+                  font.letterSpacing: 1
+                  anchors.verticalCenter: languageDropdown.verticalCenter
+
+                  MouseArea {
+                    id: languageShortcutArea
+                    anchors.fill: parent
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+                    onClicked: languageDropdown.open()
+                  }
+                }
               }
             }
           }
@@ -300,4 +386,5 @@ Panel {
       }
     }
   }
+
 }
